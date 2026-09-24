@@ -1,0 +1,502 @@
+S.No.	Company Name	Industry	NSE Sector	Symbol
+1	360 ONE WAM Ltd.	Financial Services	Financial Services	360ONE
+2	3M India Ltd.	Diversified	Diversified	3MINDIA
+3	ABB India Ltd.	Capital Goods	Capital Goods	ABB
+4	ACC Ltd.	Construction Materials	Construction Materials	ACC
+5	ACME Solar Holdings Ltd.	Power	Power	ACMESOLAR
+6	AIA Engineering Ltd.	Capital Goods	Capital Goods	AIAENG
+7	APL Apollo Tubes Ltd.	Capital Goods	Capital Goods	APLAPOLLO
+8	AU Small Finance Bank Ltd.	Financial Services	Financial Services	AUBANK
+9	AWL Agri Business Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	AWL
+10	Aadhar Housing Finance Ltd.	Financial Services	Financial Services	AADHARHFC
+11	Aarti Industries Ltd.	Chemicals	Chemicals	AARTIIND
+12	Aavas Financiers Ltd.	Financial Services	Financial Services	AAVAS
+13	Abbott India Ltd.	Healthcare	Healthcare	ABBOTINDIA
+14	Action Construction Equipment Ltd.	Capital Goods	Capital Goods	ACE
+15	Acutaas Chemicals Ltd.	Healthcare	Healthcare	ACUTAAS
+16	Adani Energy Solutions Ltd.	Power	Power	ADANIENSOL
+17	Adani Enterprises Ltd.	Metals & Mining	Metals & Mining	ADANIENT
+18	Adani Green Energy Ltd.	Power	Power	ADANIGREEN
+19	Adani Ports and Special Economic Zone Ltd.	Services	Services	ADANIPORTS
+20	Adani Power Ltd.	Power	Power	ADANIPOWER
+21	Adani Total Gas Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	ATGL
+22	Aditya Birla Capital Ltd.	Financial Services	Financial Services	ABCAPITAL
+23	Aditya Birla Fashion and Retail Ltd.	Consumer Services	Consumer Services	ABFRL
+24	Aditya Birla Lifestyle Brands Ltd.	Consumer Services	Consumer Services	ABLBL
+25	Aditya Birla Real Estate Ltd.	Realty	Realty	ABREL
+26	Aditya Birla Sun Life AMC Ltd.	Financial Services	Financial Services	ABSLAMC
+27	Aditya Infotech Ltd.	Capital Goods	Capital Goods	CPPLUS
+28	Aegis Logistics Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	AEGISLOG
+29	Aegis Vopak Terminals Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	AEGISVOPAK
+30	Afcons Infrastructure Ltd.	Construction	Construction	AFCONS
+31	Affle 3i Ltd.	Information Technology	Information Technology	AFFLE
+32	Ajanta Pharmaceuticals Ltd.	Healthcare	Healthcare	AJANTPHARM
+33	Alkem Laboratories Ltd.	Healthcare	Healthcare	ALKEM
+34	Allied Blenders and Distillers Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	ABDL
+35	Amara Raja Energy & Mobility Ltd.	Automobile and Auto Components	Automobile and Auto Components	ARE&M
+36	Amber Enterprises India Ltd.	Consumer Durables	Consumer Durables	AMBER
+37	Ambuja Cements Ltd.	Construction Materials	Construction Materials	AMBUJACEM
+38	Anand Rathi Wealth Ltd.	Financial Services	Financial Services	ANANDRATHI
+39	Anant Raj Ltd.	Realty	Realty	ANANTRAJ
+40	Angel One Ltd.	Financial Services	Financial Services	ANGELONE
+41	Anthem Biosciences Ltd.	Healthcare	Healthcare	ANTHEM
+42	Anupam Rasayan India Ltd.	Chemicals	Chemicals	ANURAS
+43	Apar Industries Ltd.	Capital Goods	Capital Goods	APARINDS
+44	Apollo Hospitals Enterprise Ltd.	Healthcare	Healthcare	APOLLOHOSP
+45	Apollo Tyres Ltd.	Automobile and Auto Components	Automobile and Auto Components	APOLLOTYRE
+46	Aptus Value Housing Finance India Ltd.	Financial Services	Financial Services	APTUS
+47	Asahi India Glass Ltd.	Automobile and Auto Components	Automobile and Auto Components	ASAHIINDIA
+48	Ashok Leyland Ltd.	Capital Goods	Capital Goods	ASHOKLEY
+49	Asian Paints Ltd.	Consumer Durables	Consumer Durables	ASIANPAINT
+50	Aster DM Quality Care Ltd.	Healthcare	Healthcare	ASTERDM
+51	Astral Ltd.	Capital Goods	Capital Goods	ASTRAL
+52	Ather Energy Ltd.	Automobile and Auto Components	Automobile and Auto Components	ATHERENERG
+53	Atul Ltd.	Chemicals	Chemicals	ATUL
+54	Aurobindo Pharma Ltd.	Healthcare	Healthcare	AUROPHARMA
+55	Authum Investment & Infrastructure Ltd.	Financial Services	Financial Services	AIIL
+56	Avenue Supermarts Ltd.	Consumer Services	Consumer Services	DMART
+57	Axis Bank Ltd.	Financial Services	Financial Services	AXISBANK
+58	BEML Ltd.	Capital Goods	Capital Goods	BEML
+59	BLS International Services Ltd.	Consumer Services	Consumer Services	BLS
+60	BSE Ltd.	Financial Services	Financial Services	BSE
+61	Bajaj Auto Ltd.	Automobile and Auto Components	Automobile and Auto Components	BAJAJ-AUTO
+62	Bajaj Finance Ltd.	Financial Services	Financial Services	BAJFINANCE
+63	Bajaj Finserv Ltd.	Financial Services	Financial Services	BAJAJFINSV
+64	Bajaj Holdings & Investment Ltd.	Financial Services	Financial Services	BAJAJHLDNG
+65	Bajaj Housing Finance Ltd.	Financial Services	Financial Services	BAJAJHFL
+66	Balkrishna Industries Ltd.	Automobile and Auto Components	Automobile and Auto Components	BALKRISIND
+67	Balrampur Chini Mills Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	BALRAMCHIN
+68	Bandhan Bank Ltd.	Financial Services	Financial Services	BANDHANBNK
+69	Bank of Baroda	Financial Services	Financial Services	BANKBARODA
+70	Bank of India	Financial Services	Financial Services	BANKINDIA
+71	Bank of Maharashtra	Financial Services	Financial Services	MAHABANK
+72	Bata India Ltd.	Consumer Durables	Consumer Durables	BATAINDIA
+73	Bayer Cropscience Ltd.	Chemicals	Chemicals	BAYERCROP
+74	Belrise Industries Ltd.	Automobile and Auto Components	Automobile and Auto Components	BELRISE
+75	Berger Paints India Ltd.	Consumer Durables	Consumer Durables	BERGEPAINT
+76	Bharat Dynamics Ltd.	Capital Goods	Capital Goods	BDL
+77	Bharat Electronics Ltd.	Capital Goods	Capital Goods	BEL
+78	Bharat Forge Ltd.	Automobile and Auto Components	Automobile and Auto Components	BHARATFORG
+79	Bharat Heavy Electricals Ltd.	Capital Goods	Capital Goods	BHEL
+80	Bharat Petroleum Corporation Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	BPCL
+81	Bharti Airtel Ltd.	Telecommunication	Telecommunication	BHARTIARTL
+82	Bharti Hexacom Ltd.	Telecommunication	Telecommunication	BHARTIHEXA
+83	Bikaji Foods International Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	BIKAJI
+84	Billionbrains Garage Ventures Ltd.	Financial Services	Financial Services	GROWW
+85	Biocon Ltd.	Healthcare	Healthcare	BIOCON
+86	Birlasoft Ltd.	Information Technology	Information Technology	BSOFT
+87	Blue Dart Express Ltd.	Services	Services	BLUEDART
+88	Blue Jet Healthcare Ltd.	Healthcare	Healthcare	BLUEJET
+89	Blue Star Ltd.	Consumer Durables	Consumer Durables	BLUESTARCO
+90	Bombay Burmah Trading Corporation Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	BBTC
+91	Bosch Ltd.	Automobile and Auto Components	Automobile and Auto Components	BOSCHLTD
+92	Brainbees Solutions Ltd.	Consumer Services	Consumer Services	FIRSTCRY
+93	Brigade Enterprises Ltd.	Realty	Realty	BRIGADE
+94	Britannia Industries Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	BRITANNIA
+95	C.E. Info Systems Ltd.	Information Technology	Information Technology	MAPMYINDIA
+96	CCL Products (I) Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	CCL
+97	CESC Ltd.	Power	Power	CESC
+98	CG Power and Industrial Solutions Ltd.	Capital Goods	Capital Goods	CGPOWER
+99	CIE Automotive India Ltd.	Automobile and Auto Components	Automobile and Auto Components	CIEINDIA
+100	CRISIL Ltd.	Financial Services	Financial Services	CRISIL
+101	Can Fin Homes Ltd.	Financial Services	Financial Services	CANFINHOME
+102	Canara Bank	Financial Services	Financial Services	CANBK
+103	Canara HSBC Life Insurance Company Ltd.	Financial Services	Financial Services	CANHLIFE
+104	Caplin Point Laboratories Ltd.	Healthcare	Healthcare	CAPLIPOINT
+105	Capri Global Capital Ltd.	Financial Services	Financial Services	CGCL
+106	Carborundum Universal Ltd.	Capital Goods	Capital Goods	CARBORUNIV
+107	Cartrade Tech Ltd.	Consumer Services	Consumer Services	CARTRADE
+108	Castrol India Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	CASTROLIND
+109	Ceat Ltd.	Automobile and Auto Components	Automobile and Auto Components	CEATLTD
+110	Cemindia Projects Ltd.	Construction	Construction	CEMPRO
+111	Central Bank of India	Financial Services	Financial Services	CENTRALBK
+112	Central Depository Services (India) Ltd.	Financial Services	Financial Services	CDSL
+113	Chalet Hotels Ltd.	Consumer Services	Consumer Services	CHALET
+114	Chambal Fertilizers & Chemicals Ltd.	Chemicals	Chemicals	CHAMBLFERT
+115	Chennai Petroleum Corporation Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	CHENNPETRO
+116	Choice International Ltd.	Financial Services	Financial Services	CHOICEIN
+117	Cholamandalam Financial Holdings Ltd.	Financial Services	Financial Services	CHOLAHLDNG
+118	Cholamandalam Investment and Finance Company Ltd.	Financial Services	Financial Services	CHOLAFIN
+119	Cipla Ltd.	Healthcare	Healthcare	CIPLA
+120	City Union Bank Ltd.	Financial Services	Financial Services	CUB
+121	Clean Science and Technology Ltd.	Chemicals	Chemicals	CLEAN
+122	Coal India Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	COALINDIA
+123	Cochin Shipyard Ltd.	Capital Goods	Capital Goods	COCHINSHIP
+124	Coforge Ltd.	Information Technology	Information Technology	COFORGE
+125	Cohance Lifesciences Ltd.	Healthcare	Healthcare	COHANCE
+126	Colgate Palmolive (India) Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	COLPAL
+127	Computer Age Management Services Ltd.	Financial Services	Financial Services	CAMS
+128	Concord Biotech Ltd.	Healthcare	Healthcare	CONCORDBIO
+129	Container Corporation of India Ltd.	Services	Services	CONCOR
+130	Coromandel International Ltd.	Chemicals	Chemicals	COROMANDEL
+131	Craftsman Automation Ltd.	Automobile and Auto Components	Automobile and Auto Components	CRAFTSMAN
+132	CreditAccess Grameen Ltd.	Financial Services	Financial Services	CREDITACC
+133	Crompton Greaves Consumer Electricals Ltd.	Consumer Durables	Consumer Durables	CROMPTON
+134	Cummins India Ltd.	Capital Goods	Capital Goods	CUMMINSIND
+135	Cyient Ltd.	Information Technology	Information Technology	CYIENT
+136	DCM Shriram Ltd.	Diversified	Diversified	DCMSHRIRAM
+137	DLF Ltd.	Realty	Realty	DLF
+138	DOMS Industries Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	DOMS
+139	Dabur India Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	DABUR
+140	Dalmia Bharat Ltd.	Construction Materials	Construction Materials	DALBHARAT
+141	Data Patterns (India) Ltd.	Capital Goods	Capital Goods	DATAPATTNS
+142	Deepak Fertilisers & Petrochemicals Corp. Ltd.	Chemicals	Chemicals	DEEPAKFERT
+143	Deepak Nitrite Ltd.	Chemicals	Chemicals	DEEPAKNTR
+144	Delhivery Ltd.	Services	Services	DELHIVERY
+145	Devyani International Ltd.	Consumer Services	Consumer Services	DEVYANI
+146	Divi's Laboratories Ltd.	Healthcare	Healthcare	DIVISLAB
+147	Dixon Technologies (India) Ltd.	Consumer Durables	Consumer Durables	DIXON
+148	Dr. Lal Path Labs Ltd.	Healthcare	Healthcare	LALPATHLAB
+149	Dr. Reddy's Laboratories Ltd.	Healthcare	Healthcare	DRREDDY
+150	Dummy HEG Ltd.	Metals & Mining	Metals & Mining	DUMMYHEG
+151	E.I.D. Parry (India) Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	EIDPARRY
+152	EIH Ltd.	Consumer Services	Consumer Services	EIHOTEL
+153	Eicher Motors Ltd.	Automobile and Auto Components	Automobile and Auto Components	EICHERMOT
+154	Elecon Engineering Co. Ltd.	Capital Goods	Capital Goods	ELECON
+155	Elgi Equipments Ltd.	Capital Goods	Capital Goods	ELGIEQUIP
+156	Emami Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	EMAMILTD
+157	Emcure Pharmaceuticals Ltd.	Healthcare	Healthcare	EMCURE
+158	Emmvee Photovoltaic Power Ltd.	Capital Goods	Capital Goods	EMMVEE
+159	Endurance Technologies Ltd.	Automobile and Auto Components	Automobile and Auto Components	ENDURANCE
+160	Engineers India Ltd.	Construction	Construction	ENGINERSIN
+161	Eris Lifesciences Ltd.	Healthcare	Healthcare	ERIS
+162	Escorts Kubota Ltd.	Capital Goods	Capital Goods	ESCORTS
+163	Eternal Ltd.	Consumer Services	Consumer Services	ETERNAL
+164	Exide Industries Ltd.	Automobile and Auto Components	Automobile and Auto Components	EXIDEIND
+165	FSN E-Commerce Ventures Ltd.	Consumer Services	Consumer Services	NYKAA
+166	Federal Bank Ltd.	Financial Services	Financial Services	FEDERALBNK
+167	Fertilisers and Chemicals Travancore Ltd.	Chemicals	Chemicals	FACT
+168	Finolex Cables Ltd.	Capital Goods	Capital Goods	FINCABLES
+169	Firstsource Solutions Ltd.	Services	Services	FSL
+170	Five-Star Business Finance Ltd.	Financial Services	Financial Services	FIVESTAR
+171	Force Motors Ltd.	Automobile and Auto Components	Automobile and Auto Components	FORCEMOT
+172	Fortis Healthcare Ltd.	Healthcare	Healthcare	FORTIS
+173	GAIL (India) Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	GAIL
+174	GE Vernova T&D India Ltd.	Capital Goods	Capital Goods	GVT&D
+175	GMR Airports Ltd.	Services	Services	GMRAIRPORT
+176	Gabriel India Ltd.	Automobile and Auto Components	Automobile and Auto Components	GABRIEL
+177	Gallantt Ispat Ltd.	Capital Goods	Capital Goods	GALLANTT
+178	Garden Reach Shipbuilders & Engineers Ltd.	Capital Goods	Capital Goods	GRSE
+179	General Insurance Corporation of India	Financial Services	Financial Services	GICRE
+180	Gillette India Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	GILLETTE
+181	Gland Pharma Ltd.	Healthcare	Healthcare	GLAND
+182	Glaxosmithkline Pharmaceuticals Ltd.	Healthcare	Healthcare	GLAXO
+183	Glenmark Pharmaceuticals Ltd.	Healthcare	Healthcare	GLENMARK
+184	Global Health Ltd.	Healthcare	Healthcare	MEDANTA
+185	Go Digit General Insurance Ltd.	Financial Services	Financial Services	GODIGIT
+186	Godawari Power & Ispat Ltd.	Capital Goods	Capital Goods	GPIL
+187	Godfrey Phillips India Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	GODFRYPHLP
+188	Godrej Consumer Products Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	GODREJCP
+189	Godrej Industries Ltd.	Diversified	Diversified	GODREJIND
+190	Godrej Properties Ltd.	Realty	Realty	GODREJPROP
+191	Granules India Ltd.	Healthcare	Healthcare	GRANULES
+192	Graphite India Ltd.	Capital Goods	Capital Goods	GRAPHITE
+193	Grasim Industries Ltd.	Construction Materials	Construction Materials	GRASIM
+194	Gravita India Ltd.	Metals & Mining	Metals & Mining	GRAVITA
+195	Great Eastern Shipping Co. Ltd.	Services	Services	GESHIP
+196	Gujarat Fluorochemicals Ltd.	Chemicals	Chemicals	FLUOROCHEM
+197	Gujarat Mineral Development Corporation Ltd.	Metals & Mining	Metals & Mining	GMDCLTD
+198	H.E.G. Ltd.	Capital Goods	Capital Goods	HEG
+199	HBL Engineering Ltd.	Capital Goods	Capital Goods	HBLENGINE
+200	HCL Technologies Ltd.	Information Technology	Information Technology	HCLTECH
+201	HDB Financial Services Ltd.	Financial Services	Financial Services	HDBFS
+202	HDFC Asset Management Company Ltd.	Financial Services	Financial Services	HDFCAMC
+203	HDFC Bank Ltd.	Financial Services	Financial Services	HDFCBANK
+204	HDFC Life Insurance Company Ltd.	Financial Services	Financial Services	HDFCLIFE
+205	HFCL Ltd.	Telecommunication	Telecommunication	HFCL
+206	Havells India Ltd.	Consumer Durables	Consumer Durables	HAVELLS
+207	Hero MotoCorp Ltd.	Automobile and Auto Components	Automobile and Auto Components	HEROMOTOCO
+208	Hexaware Technologies Ltd.	Information Technology	Information Technology	HEXT
+209	Himadri Speciality Chemical Ltd.	Chemicals	Chemicals	HSCL
+210	Hindalco Industries Ltd.	Metals & Mining	Metals & Mining	HINDALCO
+211	Hindustan Aeronautics Ltd.	Capital Goods	Capital Goods	HAL
+212	Hindustan Copper Ltd.	Metals & Mining	Metals & Mining	HINDCOPPER
+213	Hindustan Petroleum Corporation Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	HINDPETRO
+214	Hindustan Unilever Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	HINDUNILVR
+215	Hindustan Zinc Ltd.	Metals & Mining	Metals & Mining	HINDZINC
+216	Hitachi Energy India Ltd.	Capital Goods	Capital Goods	POWERINDIA
+217	Home First Finance Company India Ltd.	Financial Services	Financial Services	HOMEFIRST
+218	Honasa Consumer Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	HONASA
+219	Honeywell Automation India Ltd.	Capital Goods	Capital Goods	HONAUT
+220	Housing & Urban Development Corporation Ltd.	Financial Services	Financial Services	HUDCO
+221	Hyundai Motor India Ltd.	Automobile and Auto Components	Automobile and Auto Components	HYUNDAI
+222	ICICI Bank Ltd.	Financial Services	Financial Services	ICICIBANK
+223	ICICI Lombard General Insurance Company Ltd.	Financial Services	Financial Services	ICICIGI
+224	ICICI Prudential Asset Management Company Ltd.	Financial Services	Financial Services	ICICIAMC
+225	ICICI Prudential Life Insurance Company Ltd.	Financial Services	Financial Services	ICICIPRULI
+226	IDBI Bank Ltd.	Financial Services	Financial Services	IDBI
+227	IDFC First Bank Ltd.	Financial Services	Financial Services	IDFCFIRSTB
+228	IFCI Ltd.	Financial Services	Financial Services	IFCI
+229	IIFL Finance Ltd.	Financial Services	Financial Services	IIFL
+230	IRB Infrastructure Developers Ltd.	Construction	Construction	IRB
+231	IRCON International Ltd.	Construction	Construction	IRCON
+232	ITC Hotels Ltd.	Consumer Services	Consumer Services	ITCHOTELS
+233	ITC Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	ITC
+234	ITI Ltd.	Telecommunication	Telecommunication	ITI
+235	Indegene Ltd.	Healthcare	Healthcare	INDGN
+236	India Cements Ltd.	Construction Materials	Construction Materials	INDIACEM
+237	Indiamart Intermesh Ltd.	Consumer Services	Consumer Services	INDIAMART
+238	Indian Bank	Financial Services	Financial Services	INDIANB
+239	Indian Energy Exchange Ltd.	Financial Services	Financial Services	IEX
+240	Indian Hotels Co. Ltd.	Consumer Services	Consumer Services	INDHOTEL
+241	Indian Oil Corporation Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	IOC
+242	Indian Overseas Bank	Financial Services	Financial Services	IOB
+243	Indian Railway Catering And Tourism Corporation Ltd.	Consumer Services	Consumer Services	IRCTC
+244	Indian Railway Finance Corporation Ltd.	Financial Services	Financial Services	IRFC
+245	Indian Renewable Energy Development Agency Ltd.	Financial Services	Financial Services	IREDA
+246	Indraprastha Gas Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	IGL
+247	Indus Towers Ltd.	Telecommunication	Telecommunication	INDUSTOWER
+248	IndusInd Bank Ltd.	Financial Services	Financial Services	INDUSINDBK
+249	Info Edge (India) Ltd.	Consumer Services	Consumer Services	NAUKRI
+250	Infosys Ltd.	Information Technology	Information Technology	INFY
+251	Inox Wind Ltd.	Capital Goods	Capital Goods	INOXWIND
+252	Intellect Design Arena Ltd.	Information Technology	Information Technology	INTELLECT
+253	InterGlobe Aviation Ltd.	Services	Services	INDIGO
+254	International Gemological Institute Ltd.	Services	Services	IGIL
+255	Inventurus Knowledge Solutions Ltd.	Information Technology	Information Technology	IKS
+256	Ipca Laboratories Ltd.	Healthcare	Healthcare	IPCALAB
+257	J.K. Cement Ltd.	Construction Materials	Construction Materials	JKCEMENT
+258	JBM Auto Ltd.	Automobile and Auto Components	Automobile and Auto Components	JBMA
+259	JK Tyre & Industries Ltd.	Automobile and Auto Components	Automobile and Auto Components	JKTYRE
+260	JM Financial Ltd.	Financial Services	Financial Services	JMFINANCIL
+261	JSW Cement Ltd.	Construction Materials	Construction Materials	JSWCEMENT
+262	JSW Dulux Ltd.	Consumer Durables	Consumer Durables	JSWDULUX
+263	JSW Energy Ltd.	Power	Power	JSWENERGY
+264	JSW Infrastructure Ltd.	Services	Services	JSWINFRA
+265	JSW Steel Ltd.	Metals & Mining	Metals & Mining	JSWSTEEL
+266	Jain Resource Recycling Ltd.	Metals & Mining	Metals & Mining	JAINREC
+267	Jaiprakash Power Ventures Ltd.	Power	Power	JPPOWER
+268	Jammu & Kashmir Bank Ltd.	Financial Services	Financial Services	J&KBANK
+269	Jindal Saw Ltd.	Capital Goods	Capital Goods	JINDALSAW
+270	Jindal Stainless Ltd.	Metals & Mining	Metals & Mining	JSL
+271	Jindal Steel Ltd.	Metals & Mining	Metals & Mining	JINDALSTEL
+272	Jio Financial Services Ltd.	Financial Services	Financial Services	JIOFIN
+273	Jubilant Foodworks Ltd.	Consumer Services	Consumer Services	JUBLFOOD
+274	Jubilant Ingrevia Ltd.	Chemicals	Chemicals	JUBLINGREA
+275	Jubilant Pharmova Ltd.	Healthcare	Healthcare	JUBLPHARMA
+276	Jupiter Wagons Ltd.	Capital Goods	Capital Goods	JWL
+277	Jyoti CNC Automation Ltd.	Capital Goods	Capital Goods	JYOTICNC
+278	K.P.R. Mill Ltd.	Textiles	Textiles	KPRMILL
+279	KEI Industries Ltd.	Capital Goods	Capital Goods	KEI
+280	KPIT Technologies Ltd.	Information Technology	Information Technology	KPITTECH
+281	Kajaria Ceramics Ltd.	Consumer Durables	Consumer Durables	KAJARIACER
+282	Kalpataru Projects International Ltd.	Construction	Construction	KPIL
+283	Kalyan Jewellers India Ltd.	Consumer Durables	Consumer Durables	KALYANKJIL
+284	Karur Vysya Bank Ltd.	Financial Services	Financial Services	KARURVYSYA
+285	Kaynes Technology India Ltd.	Capital Goods	Capital Goods	KAYNES
+286	Kec International Ltd.	Construction	Construction	KEC
+287	Kfin Technologies Ltd.	Financial Services	Financial Services	KFINTECH
+288	Kirloskar Oil Eng Ltd.	Capital Goods	Capital Goods	KIRLOSENG
+289	Kotak Mahindra Bank Ltd.	Financial Services	Financial Services	KOTAKBANK
+290	Krishna Institute of Medical Sciences Ltd.	Healthcare	Healthcare	KIMS
+291	L&T Finance Ltd.	Financial Services	Financial Services	LTF
+292	L&T Technology Services Ltd.	Information Technology	Information Technology	LTTS
+293	LG Electronics India Ltd.	Consumer Durables	Consumer Durables	LGEINDIA
+294	LIC Housing Finance Ltd.	Financial Services	Financial Services	LICHSGFIN
+295	LT Foods Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	LTFOODS
+296	LTM Ltd.	Information Technology	Information Technology	LTM
+297	Larsen & Toubro Ltd.	Construction	Construction	LT
+298	Latent View Analytics Ltd.	Information Technology	Information Technology	LATENTVIEW
+299	Laurus Labs Ltd.	Healthcare	Healthcare	LAURUSLABS
+300	Leela Palaces Hotels & Resorts Ltd.	Consumer Services	Consumer Services	THELEELA
+301	Lemon Tree Hotels Ltd.	Consumer Services	Consumer Services	LEMONTREE
+302	Lenskart Solutions Ltd.	Consumer Services	Consumer Services	LENSKART
+303	Life Insurance Corporation of India	Financial Services	Financial Services	LICI
+304	Linde India Ltd.	Chemicals	Chemicals	LINDEINDIA
+305	Lloyds Metals And Energy Ltd.	Metals & Mining	Metals & Mining	LLOYDSME
+306	Lodha Developers Ltd.	Realty	Realty	LODHA
+307	Lupin Ltd.	Healthcare	Healthcare	LUPIN
+308	MMTC Ltd.	Services	Services	MMTC
+309	MRF Ltd.	Automobile and Auto Components	Automobile and Auto Components	MRF
+310	Mahanagar Gas Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	MGL
+311	Mahindra & Mahindra Financial Services Ltd.	Financial Services	Financial Services	M&MFIN
+312	Mahindra & Mahindra Ltd.	Automobile and Auto Components	Automobile and Auto Components	M&M
+313	Manappuram Finance Ltd.	Financial Services	Financial Services	MANAPPURAM
+314	Mangalore Refinery & Petrochemicals Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	MRPL
+315	Mankind Pharma Ltd.	Healthcare	Healthcare	MANKIND
+316	Marico Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	MARICO
+317	Maruti Suzuki India Ltd.	Automobile and Auto Components	Automobile and Auto Components	MARUTI
+318	Max Financial Services Ltd.	Financial Services	Financial Services	MFSL
+319	Max Healthcare Institute Ltd.	Healthcare	Healthcare	MAXHEALTH
+320	Mazagoan Dock Shipbuilders Ltd.	Capital Goods	Capital Goods	MAZDOCK
+321	Meesho Ltd.	Consumer Services	Consumer Services	MEESHO
+322	Minda Corporation Ltd.	Automobile and Auto Components	Automobile and Auto Components	MINDACORP
+323	Motherson Sumi Wiring India Ltd.	Automobile and Auto Components	Automobile and Auto Components	MSUMI
+324	Motilal Oswal Financial Services Ltd.	Financial Services	Financial Services	MOTILALOFS
+325	MphasiS Ltd.	Information Technology	Information Technology	MPHASIS
+326	Multi Commodity Exchange of India Ltd.	Financial Services	Financial Services	MCX
+327	Muthoot Finance Ltd.	Financial Services	Financial Services	MUTHOOTFIN
+328	NATCO Pharma Ltd.	Healthcare	Healthcare	NATCOPHARM
+329	NBCC (India) Ltd.	Construction	Construction	NBCC
+330	NCC Ltd.	Construction	Construction	NCC
+331	NHPC Ltd.	Power	Power	NHPC
+332	NLC India Ltd.	Power	Power	NLCINDIA
+333	NMDC Ltd.	Metals & Mining	Metals & Mining	NMDC
+334	NMDC Steel Ltd.	Metals & Mining	Metals & Mining	NSLNISP
+335	NTPC Green Energy Ltd.	Power	Power	NTPCGREEN
+336	NTPC Ltd.	Power	Power	NTPC
+337	Narayana Hrudayalaya Ltd.	Healthcare	Healthcare	NH
+338	National Aluminium Co. Ltd.	Metals & Mining	Metals & Mining	NATIONALUM
+339	Nava Ltd.	Power	Power	NAVA
+340	Navin Fluorine International Ltd.	Chemicals	Chemicals	NAVINFLUOR
+341	Nestle India Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	NESTLEIND
+342	Netweb Technologies India Ltd.	Information Technology	Information Technology	NETWEB
+343	Neuland Laboratories Ltd.	Healthcare	Healthcare	NEULANDLAB
+344	Newgen Software Technologies Ltd.	Information Technology	Information Technology	NEWGEN
+345	Nippon Life India Asset Management Ltd.	Financial Services	Financial Services	NAM-INDIA
+346	Niva Bupa Health Insurance Company Ltd.	Financial Services	Financial Services	NIVABUPA
+347	Nuvama Wealth Management Ltd.	Financial Services	Financial Services	NUVAMA
+348	Nuvoco Vistas Corporation Ltd.	Construction Materials	Construction Materials	NUVOCO
+349	Oberoi Realty Ltd.	Realty	Realty	OBEROIRLTY
+350	Oil & Natural Gas Corporation Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	ONGC
+351	Oil India Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	OIL
+352	Ola Electric Mobility Ltd.	Automobile and Auto Components	Automobile and Auto Components	OLAELEC
+353	Olectra Greentech Ltd.	Automobile and Auto Components	Automobile and Auto Components	OLECTRA
+354	One 97 Communications Ltd.	Financial Services	Financial Services	PAYTM
+355	Onesource Specialty Pharma Ltd.	Healthcare	Healthcare	ONESOURCE
+356	Oracle Financial Services Software Ltd.	Information Technology	Information Technology	OFSS
+357	PB Fintech Ltd.	Financial Services	Financial Services	POLICYBZR
+358	PCBL Chemical Ltd.	Chemicals	Chemicals	PCBL
+359	PG Electroplast Ltd.	Consumer Durables	Consumer Durables	PGEL
+360	PI Industries Ltd.	Chemicals	Chemicals	PIIND
+361	PNB Housing Finance Ltd.	Financial Services	Financial Services	PNBHOUSING
+362	PTC Industries Ltd.	Capital Goods	Capital Goods	PTCIL
+363	PVR INOX Ltd.	Media Entertainment & Publication	Media Entertainment & Publication	PVRINOX
+364	Page Industries Ltd.	Textiles	Textiles	PAGEIND
+365	Paradeep Phosphates Ltd.	Chemicals	Chemicals	PARADEEP
+366	Patanjali Foods Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	PATANJALI
+367	Persistent Systems Ltd.	Information Technology	Information Technology	PERSISTENT
+368	Petronet LNG Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	PETRONET
+369	Pfizer Ltd.	Healthcare	Healthcare	PFIZER
+370	Phoenix Mills Ltd.	Realty	Realty	PHOENIXLTD
+371	Physicswallah Ltd.	Consumer Services	Consumer Services	PWL
+372	Pidilite Industries Ltd.	Chemicals	Chemicals	PIDILITIND
+373	Pine Labs Ltd.	Financial Services	Financial Services	PINELABS
+374	Piramal Finance Ltd.	Financial Services	Financial Services	PIRAMALFIN
+375	Piramal Pharma Ltd.	Healthcare	Healthcare	PPLPHARMA
+376	Poly Medicure Ltd.	Healthcare	Healthcare	POLYMED
+377	Polycab India Ltd.	Capital Goods	Capital Goods	POLYCAB
+378	Poonawalla Fincorp Ltd.	Financial Services	Financial Services	POONAWALLA
+379	Power Finance Corporation Ltd.	Financial Services	Financial Services	PFC
+380	Power Grid Corporation of India Ltd.	Power	Power	POWERGRID
+381	Premier Energies Ltd.	Capital Goods	Capital Goods	PREMIERENE
+382	Prestige Estates Projects Ltd.	Realty	Realty	PRESTIGE
+383	Prime Focus Ltd.	Media Entertainment & Publication	Media Entertainment & Publication	PFOCUS
+384	Punjab National Bank	Financial Services	Financial Services	PNB
+385	R R Kabel Ltd.	Capital Goods	Capital Goods	RRKABEL
+386	RBL Bank Ltd.	Financial Services	Financial Services	RBLBANK
+387	REC Ltd.	Financial Services	Financial Services	RECLTD
+388	RHI MAGNESITA INDIA LTD.	Capital Goods	Capital Goods	RHIM
+389	RITES Ltd.	Construction	Construction	RITES
+390	Radico Khaitan Ltd	Fast Moving Consumer Goods	Fast Moving Consumer Goods	RADICO
+391	Rail Vikas Nigam Ltd.	Construction	Construction	RVNL
+392	Railtel Corporation Of India Ltd.	Telecommunication	Telecommunication	RAILTEL
+393	Rainbow Childrens Medicare Ltd.	Healthcare	Healthcare	RAINBOW
+394	Ramkrishna Forgings Ltd.	Automobile and Auto Components	Automobile and Auto Components	RKFORGE
+395	Redington Ltd.	Services	Services	REDINGTON
+396	Reliance Industries Ltd.	Oil Gas & Consumable Fuels	Oil Gas & Consumable Fuels	RELIANCE
+397	Reliance Power Ltd.	Power	Power	RPOWER
+398	SBFC Finance Ltd.	Financial Services	Financial Services	SBFC
+399	SBI Cards and Payment Services Ltd.	Financial Services	Financial Services	SBICARD
+400	SBI Life Insurance Company Ltd.	Financial Services	Financial Services	SBILIFE
+401	SJVN Ltd.	Power	Power	SJVN
+402	SRF Ltd.	Chemicals	Chemicals	SRF
+403	Sagility Ltd.	Information Technology	Information Technology	SAGILITY
+404	Sai Life Sciences Ltd.	Healthcare	Healthcare	SAILIFE
+405	Sammaan Capital Ltd.	Financial Services	Financial Services	SAMMAANCAP
+406	Samvardhana Motherson International Ltd.	Automobile and Auto Components	Automobile and Auto Components	MOTHERSON
+407	Sapphire Foods India Ltd.	Consumer Services	Consumer Services	SAPPHIRE
+408	Sarda Energy and Minerals Ltd.	Metals & Mining	Metals & Mining	SARDAEN
+409	Saregama India Ltd	Media Entertainment & Publication	Media Entertainment & Publication	SAREGAMA
+410	Schaeffler India Ltd.	Automobile and Auto Components	Automobile and Auto Components	SCHAEFFLER
+411	Schneider Electric Infrastructure Ltd.	Capital Goods	Capital Goods	SCHNEIDER
+412	Shipping Corporation of India Ltd.	Services	Services	SCI
+413	Shree Cement Ltd.	Construction Materials	Construction Materials	SHREECEM
+414	Shriram Finance Ltd.	Financial Services	Financial Services	SHRIRAMFIN
+415	Shyam Metalics and Energy Ltd.	Capital Goods	Capital Goods	SHYAMMETL
+416	Siemens Energy India Ltd.	Capital Goods	Capital Goods	ENRIN
+417	Siemens Ltd.	Capital Goods	Capital Goods	SIEMENS
+418	Signatureglobal (India) Ltd.	Realty	Realty	SIGNATURE
+419	Sobha Ltd.	Realty	Realty	SOBHA
+420	Solar Industries India Ltd.	Chemicals	Chemicals	SOLARINDS
+421	Sona BLW Precision Forgings Ltd.	Automobile and Auto Components	Automobile and Auto Components	SONACOMS
+422	Sonata Software Ltd.	Information Technology	Information Technology	SONATSOFTW
+423	Star Health and Allied Insurance Company Ltd.	Financial Services	Financial Services	STARHEALTH
+424	State Bank of India	Financial Services	Financial Services	SBIN
+425	Steel Authority of India Ltd.	Metals & Mining	Metals & Mining	SAIL
+426	Sumitomo Chemical India Ltd.	Chemicals	Chemicals	SUMICHEM
+427	Sun Pharmaceutical Industries Ltd.	Healthcare	Healthcare	SUNPHARMA
+428	Sun TV Network Ltd.	Media Entertainment & Publication	Media Entertainment & Publication	SUNTV
+429	Sundaram Finance Ltd.	Financial Services	Financial Services	SUNDARMFIN
+430	Supreme Industries Ltd.	Capital Goods	Capital Goods	SUPREMEIND
+431	Supreme Petrochem Ltd.	Chemicals	Chemicals	SPLPETRO
+432	Suzlon Energy Ltd.	Capital Goods	Capital Goods	SUZLON
+433	Swan Corp Ltd.	Chemicals	Chemicals	SWANCORP
+434	Swiggy Ltd.	Consumer Services	Consumer Services	SWIGGY
+435	Syngene International Ltd.	Healthcare	Healthcare	SYNGENE
+436	Syrma SGS Technology Ltd.	Capital Goods	Capital Goods	SYRMA
+437	TBO Tek Ltd.	Consumer Services	Consumer Services	TBOTEK
+438	TVS Motor Company Ltd.	Automobile and Auto Components	Automobile and Auto Components	TVSMOTOR
+439	Tata Capital Ltd.	Financial Services	Financial Services	TATACAP
+440	Tata Chemicals Ltd.	Chemicals	Chemicals	TATACHEM
+441	Tata Communications Ltd.	Telecommunication	Telecommunication	TATACOMM
+442	Tata Consultancy Services Ltd.	Information Technology	Information Technology	TCS
+443	Tata Consumer Products Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	TATACONSUM
+444	Tata Elxsi Ltd.	Information Technology	Information Technology	TATAELXSI
+445	Tata Investment Corporation Ltd.	Financial Services	Financial Services	TATAINVEST
+446	Tata Motors Ltd.	Capital Goods	Capital Goods	TMCV
+447	Tata Motors Passenger Vehicles Ltd.	Automobile and Auto Components	Automobile and Auto Components	TMPV
+448	Tata Power Co. Ltd.	Power	Power	TATAPOWER
+449	Tata Steel Ltd.	Metals & Mining	Metals & Mining	TATASTEEL
+450	Tata Technologies Ltd.	Information Technology	Information Technology	TATATECH
+451	Tata Teleservices (Maharashtra) Ltd.	Telecommunication	Telecommunication	TTML
+452	Tech Mahindra Ltd.	Information Technology	Information Technology	TECHM
+453	Techno Electric & Engineering Company Ltd.	Construction	Construction	TECHNOE
+454	Tega Industries Ltd.	Capital Goods	Capital Goods	TEGA
+455	Tejas Networks Ltd.	Telecommunication	Telecommunication	TEJASNET
+456	Tenneco Clean Air India Ltd.	Automobile and Auto Components	Automobile and Auto Components	TENNIND
+457	The New India Assurance Company Ltd.	Financial Services	Financial Services	NIACL
+458	The Ramco Cements Ltd.	Construction Materials	Construction Materials	RAMCOCEM
+459	Thermax Ltd.	Capital Goods	Capital Goods	THERMAX
+460	Timken India Ltd.	Capital Goods	Capital Goods	TIMKEN
+461	Titagarh Rail Systems Ltd.	Capital Goods	Capital Goods	TITAGARH
+462	Titan Company Ltd.	Consumer Durables	Consumer Durables	TITAN
+463	Torrent Pharmaceuticals Ltd.	Healthcare	Healthcare	TORNTPHARM
+464	Torrent Power Ltd.	Power	Power	TORNTPOWER
+465	Transformers And Rectifiers (India) Ltd.	Capital Goods	Capital Goods	TARIL
+466	Travel Food Services Ltd.	Consumer Services	Consumer Services	TRAVELFOOD
+467	Trent Ltd.	Consumer Services	Consumer Services	TRENT
+468	Trident Ltd.	Textiles	Textiles	TRIDENT
+469	Triveni Turbine Ltd.	Capital Goods	Capital Goods	TRITURBINE
+470	Tube Investments of India Ltd.	Automobile and Auto Components	Automobile and Auto Components	TIINDIA
+471	UCO Bank	Financial Services	Financial Services	UCOBANK
+472	UNO Minda Ltd.	Automobile and Auto Components	Automobile and Auto Components	UNOMINDA
+473	UPL Ltd.	Chemicals	Chemicals	UPL
+474	UTI Asset Management Company Ltd.	Financial Services	Financial Services	UTIAMC
+475	UltraTech Cement Ltd.	Construction Materials	Construction Materials	ULTRACEMCO
+476	Union Bank of India	Financial Services	Financial Services	UNIONBANK
+477	United Breweries Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	UBL
+478	United Spirits Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	UNITDSPR
+479	Urban Company Ltd.	Consumer Services	Consumer Services	URBANCO
+480	Usha Martin Ltd.	Capital Goods	Capital Goods	USHAMART
+481	Vardhman Textiles Ltd.	Textiles	Textiles	VTL
+482	Varun Beverages Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	VBL
+483	Vedanta Ltd.	Metals & Mining	Metals & Mining	VEDL
+484	Vijaya Diagnostic Centre Ltd.	Healthcare	Healthcare	VIJAYA
+485	Vishal Mega Mart Ltd.	Consumer Services	Consumer Services	VMM
+486	Vodafone Idea Ltd.	Telecommunication	Telecommunication	IDEA
+487	Voltas Ltd.	Consumer Durables	Consumer Durables	VOLTAS
+488	Waaree Energies Ltd.	Capital Goods	Capital Goods	WAAREEENER
+489	Welspun Corp Ltd.	Capital Goods	Capital Goods	WELCORP
+490	Welspun Living Ltd.	Textiles	Textiles	WELSPUNLIV
+491	Whirlpool of India Ltd.	Consumer Durables	Consumer Durables	WHIRLPOOL
+492	Wipro Ltd.	Information Technology	Information Technology	WIPRO
+493	Wockhardt Ltd.	Healthcare	Healthcare	WOCKPHARMA
+494	Yes Bank Ltd.	Financial Services	Financial Services	YESBANK
+495	ZF Commercial Vehicle Control Systems India Ltd.	Automobile and Auto Components	Automobile and Auto Components	ZFCVINDIA
+496	Zee Entertainment Enterprises Ltd.	Media Entertainment & Publication	Media Entertainment & Publication	ZEEL
+497	Zen Technologies Ltd.	Capital Goods	Capital Goods	ZENTEC
+498	Zensar Technolgies Ltd.	Information Technology	Information Technology	ZENSARTECH
+499	Zydus Lifesciences Ltd.	Healthcare	Healthcare	ZYDUSLIFE
+500	Zydus Wellness Ltd.	Fast Moving Consumer Goods	Fast Moving Consumer Goods	ZYDUSWELL
+501	eClerx Services Ltd.	Services	Services	ECLERX
