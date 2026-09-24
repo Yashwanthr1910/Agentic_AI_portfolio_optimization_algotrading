@@ -1,0 +1,14 @@
+{
+    "observations": 252,
+    "number_of_assets": 10,
+    "weighting_method": "equal",
+    "risk_free_rate_annual": 0.0,
+    "risk_free_rate_daily": 0.0,
+    "mean_daily_return": 0.001178812276504488,
+    "daily_volatility": 0.01540604959493676,
+    "annualized_return_arithmetic": 0.29706069367913096,
+    "annualized_return_geometric": 0.30610272961745544,
+    "annualized_volatility": 0.24456345548478023,
+    "sharpe_ratio": 1.2146569203902084,
+    "cumulative_return": 0.30610272961745544
+}

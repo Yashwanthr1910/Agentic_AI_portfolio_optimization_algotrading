@@ -1,0 +1,31 @@
+feature,source_type,source
+return_1d,alias,daily_return
+return_5d,existing,return_5d
+return_21d,existing,return_21d
+return_63d,existing,return_63d
+sma_5,derived,OHLCV / historical features
+sma_10,derived,OHLCV / historical features
+sma_20,existing,sma_20
+sma_50,existing,sma_50
+sma_200,existing,sma_200
+ema_12,existing,ema_12
+ema_26,existing,ema_26
+close_to_sma_5,derived,OHLCV / historical features
+close_to_sma_20,derived,OHLCV / historical features
+close_to_sma_50,derived,OHLCV / historical features
+close_to_sma_200,derived,OHLCV / historical features
+sma_5_to_sma_20,derived,OHLCV / historical features
+sma_20_to_sma_50,derived,OHLCV / historical features
+rsi_14,existing,rsi_14
+macd,existing,macd
+macd_signal,existing,macd_signal
+macd_hist,alias,macd_histogram
+volatility_20d,existing,volatility_20d
+volatility_60d,existing,volatility_60d
+sharpe_60d,derived,OHLCV / historical features
+sharpe_252d,existing,sharpe_252d
+drawdown,existing,drawdown
+volume_change_1d,alias,volume_change
+volume_ratio_20d,alias,volume_ratio
+intraday_range,alias,high_low_range
+gap_return,existing,gap_return

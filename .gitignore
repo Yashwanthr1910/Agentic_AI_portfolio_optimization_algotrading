@@ -1,21 +1,26 @@
-@'
-# ============================================================
-# PYTHON
+﻿# ============================================================
+# LOCAL PYTHON ENVIRONMENT
 # ============================================================
 
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
 # ============================================================
-# IDE / OS
+# PYTHON CACHE
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# IDE / OPERATING SYSTEM
 # ============================================================
 
 .vscode/
@@ -25,81 +30,25 @@ Thumbs.db
 desktop.ini
 
 # ============================================================
-# TEST / CACHE
+# PRIVATE / SECRET FILES
 # ============================================================
 
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# ============================================================
-# LOGS
-# ============================================================
-
-*.log
-logs/
-
-# ============================================================
-# STREAMLIT
-# ============================================================
+.env
+.env.*
+!.env.example
 
 .streamlit/secrets.toml
 
-# ============================================================
-# LARGE MARKET DATA
-# ============================================================
+credentials.json
+credentials*.json
+secrets.json
+secret.json
 
-stock_selection_agent/data/raw/
-stock_selection_agent/data/processed/
-
-trend_prediction_agent/data/raw/
-trend_prediction_agent/data/processed/
-
-risk_management_agent/data/raw/
-risk_management_agent/data/processed/
-
-trade_execution_agent/data/raw/
-trade_execution_agent/data/processed/
-
-portfolio_rebalancing_agent/data/raw/
-portfolio_rebalancing_agent/data/processed/
+*.pem
+*.key
 
 # ============================================================
-# LARGE DATA FILE TYPES
-# ============================================================
-
-*.parquet
-*.feather
-*.h5
-*.hdf5
-
-# ============================================================
-# TRAINED MODEL WEIGHTS
-# ============================================================
-
-*.weights.h5
-*.keras
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.ckpt
-
-stock_selection_agent/models/
-trend_prediction_agent/models/
-risk_management_agent/models/
-trade_execution_agent/models/
-portfolio_rebalancing_agent/models/
-
-# ============================================================
-# GENERATED SYSTEM RUN SNAPSHOTS
-# ============================================================
-
-reports/system/runs/
-
-# ============================================================
-# TEMP / BACKUP
+# TEMPORARY FILES
 # ============================================================
 
 *.tmp
@@ -108,5 +57,5 @@ reports/system/runs/
 *.swp
 ~$*
 
-'@ | Set-Content -Encoding UTF8 .gitignore
-current_environment.txt
+# Local gitignore backup
+.gitignore.backup

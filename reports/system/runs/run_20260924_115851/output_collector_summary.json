@@ -1,0 +1,71 @@
+{
+    "status": "COMPLETE",
+    "timestamp": "2026-09-24T12:00:15",
+    "inference_date": "2025-12-01",
+    "agents": {
+        "agent1": {
+            "selected_source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+            "selected_format": "PARQUET",
+            "rankings_source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet",
+            "rankings_format": "PARQUET",
+            "rows": 10
+        },
+        "agent2": {
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent3": {
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent4": {
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent5": {
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        }
+    },
+    "symbol_checks": {
+        "agent1_agent2_symbols_match": true,
+        "agent2_agent3_symbols_match": true,
+        "agent3_agent4_symbols_match": true,
+        "agent4_agent5_symbols_match": true,
+        "all_agents_same_symbols": true
+    },
+    "trace_checks": {
+        "trace_not_empty": true,
+        "ten_rows": true,
+        "ten_unique_symbols": true,
+        "core_stage_columns_present": true,
+        "agent2_probability_finite": true,
+        "agent2_probability_range": true,
+        "agent3_scores_finite": true,
+        "agent4_actions_valid": true,
+        "agent5_weights_finite": true,
+        "agent5_weights_nonnegative": true,
+        "agent5_weights_sum_to_one": true,
+        "agent4_sell_agent5_zero": true
+    },
+    "rows": 10,
+    "columns": 45,
+    "symbols": [
+        "BHARATFORG",
+        "HBLENGINE",
+        "CGCL",
+        "CREDITACC",
+        "360ONE",
+        "MRPL",
+        "IDEA",
+        "HINDCOPPER",
+        "HONASA",
+        "GVT&D"
+    ],
+    "output_csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\latest\\full_agent_trace.csv",
+    "output_parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\latest\\full_agent_trace.parquet"
+}
