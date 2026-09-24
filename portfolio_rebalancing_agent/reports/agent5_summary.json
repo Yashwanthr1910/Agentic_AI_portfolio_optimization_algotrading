@@ -1,0 +1,153 @@
+{
+    "status": "COMPLETE",
+    "agent": "Portfolio Rebalancing Agent",
+    "agent_number": 5,
+    "rebalance_date": "2025-12-01",
+    "method": "Markowitz MPT + Agent-4 DQN RL feedback",
+    "stocks_received": 10,
+    "active_assets": 8,
+    "exited_assets": 2,
+    "agent4_actions": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "rebalancing_actions": {
+        "BUY": 5,
+        "HOLD": 0,
+        "SELL": 5
+    },
+    "final_weight_sum": 0.9999999999999998,
+    "final_portfolio": {
+        "BHARATFORG": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "BUY",
+            "weight": 0.2124050458974027,
+            "allocation_percent": 21.24050458974027,
+            "status": "ACTIVE",
+            "decision": "INCREASE_ALLOCATION"
+        },
+        "HBLENGINE": {
+            "agent4_action": "BUY",
+            "rebalance_direction": "BUY",
+            "weight": 0.1917143049545384,
+            "allocation_percent": 19.17143049545384,
+            "status": "ACTIVE",
+            "decision": "INCREASE_ALLOCATION"
+        },
+        "CGCL": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "BUY",
+            "weight": 0.1482783577719474,
+            "allocation_percent": 14.827835777194739,
+            "status": "ACTIVE",
+            "decision": "INCREASE_ALLOCATION"
+        },
+        "CREDITACC": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "BUY",
+            "weight": 0.1210681967464396,
+            "allocation_percent": 12.10681967464396,
+            "status": "ACTIVE",
+            "decision": "INCREASE_ALLOCATION"
+        },
+        "360ONE": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "BUY",
+            "weight": 0.1046428878132329,
+            "allocation_percent": 10.46428878132329,
+            "status": "ACTIVE",
+            "decision": "INCREASE_ALLOCATION"
+        },
+        "MRPL": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "SELL",
+            "weight": 0.0983054649091975,
+            "allocation_percent": 9.830546490919751,
+            "status": "ACTIVE",
+            "decision": "REDUCE_ALLOCATION"
+        },
+        "IDEA": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "SELL",
+            "weight": 0.0695730505573509,
+            "allocation_percent": 6.95730505573509,
+            "status": "ACTIVE",
+            "decision": "REDUCE_ALLOCATION"
+        },
+        "HINDCOPPER": {
+            "agent4_action": "HOLD",
+            "rebalance_direction": "SELL",
+            "weight": 0.0540126913498905,
+            "allocation_percent": 5.40126913498905,
+            "status": "ACTIVE",
+            "decision": "REDUCE_ALLOCATION"
+        },
+        "GVT&D": {
+            "agent4_action": "SELL",
+            "rebalance_direction": "SELL",
+            "weight": 0.0,
+            "allocation_percent": 0.0,
+            "status": "EXIT",
+            "decision": "EXIT_POSITION"
+        },
+        "HONASA": {
+            "agent4_action": "SELL",
+            "rebalance_direction": "SELL",
+            "weight": 0.0,
+            "allocation_percent": 0.0,
+            "status": "EXIT",
+            "decision": "EXIT_POSITION"
+        }
+    },
+    "diagnostic_metrics": {
+        "observations": 105,
+        "daily_mean_return": 0.0018315064175393634,
+        "daily_volatility": 0.011310551906128043,
+        "cumulative_return": 0.20384388838924572,
+        "annualized_return": 0.5608760379254449,
+        "annualized_arithmetic_mean_return": 0.4615396172199196,
+        "annualized_volatility": 0.17954944520701424,
+        "sharpe_ratio": 3.123797109363242,
+        "max_drawdown": -0.08116139636406228,
+        "historical_var_95": 0.015284745479487908,
+        "turnover": 0.0,
+        "herfindahl_index": 0.14688613648548027,
+        "effective_number_of_assets": 6.807994436553583,
+        "weight_sum": 0.9999999999999999,
+        "minimum_weight": 0.0,
+        "maximum_weight": 0.2124050458974027
+    },
+    "validation": {
+        "portfolio_not_empty": true,
+        "one_row_per_symbol": true,
+        "weights_finite": true,
+        "weights_nonnegative": true,
+        "weights_below_max": true,
+        "weights_sum_to_one": true,
+        "agent4_actions_valid": true,
+        "rebalance_directions_valid": true,
+        "dqn_sell_weights_zero": true,
+        "dqn_sell_positions_exited": true,
+        "active_assets_exist": true,
+        "active_assets_are_not_dqn_sell": true,
+        "final_weights_match_target": true
+    },
+    "stage_reports": {
+        "data_loader": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\reports\\data_loader_summary.json",
+        "mpt_optimizer": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\reports\\mpt_optimization_summary.json",
+        "rl_feedback": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\reports\\rl_feedback_summary.json",
+        "rebalancing_environment": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\reports\\rebalancing_environment_summary.json"
+    },
+    "outputs": {
+        "rebalanced_portfolio_csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+        "rebalanced_portfolio_csv_saved": true,
+        "rebalanced_portfolio_parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+        "rebalanced_portfolio_parquet_saved": true,
+        "rebalanced_portfolio_parquet_error": null,
+        "final_portfolio_allocation_csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv",
+        "final_portfolio_allocation_saved": true
+    },
+    "methodology_note": "Agent 5 combines Markowitz minimum-variance portfolio optimization with Agent-4 DQN trade feedback. Agent-4 SELL stocks are assigned zero final allocation. BUY and HOLD stocks remain eligible and receive MPT-determined weights. No additional unreported BUY/HOLD multipliers are introduced.",
+    "evaluation_note": "The reported portfolio metrics use the same historical 105-day period used for return/covariance estimation. They describe the historical properties of the final allocation and are not a post-2025-12-01 future backtest."
+}

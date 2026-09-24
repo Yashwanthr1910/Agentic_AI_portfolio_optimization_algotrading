@@ -1,0 +1,44 @@
+{
+    "integration": "Agent 1 -> Agent 2",
+    "overall_passed": true,
+    "checks": {
+        "file_check": true,
+        "symbol_handoff": true,
+        "probabilities": true,
+        "ranking": true,
+        "dates": true
+    },
+    "symbol_validation": {
+        "passed": true,
+        "agent1_symbols": 10,
+        "agent2_symbols": 10,
+        "missing": [],
+        "unexpected": [],
+        "duplicate_predictions": 0
+    },
+    "probability_validation": {
+        "passed": true,
+        "finite_probabilities": true,
+        "probability_range_valid": true,
+        "finite_ensemble_std": true,
+        "nonnegative_ensemble_std": true,
+        "classes_valid": true,
+        "class_matches_threshold": true
+    },
+    "ranking_validation": {
+        "passed": true,
+        "rank_complete": true,
+        "no_duplicate_ranks": true,
+        "descending_probability": true
+    },
+    "date_validation": {
+        "passed": true,
+        "invalid_dates": 0,
+        "unique_prediction_dates": 1,
+        "earliest_prediction_date": "2025-12-01 00:00:00",
+        "latest_prediction_date": "2025-12-01 00:00:00"
+    },
+    "predictions_generated": 10,
+    "top30_predictions": 4,
+    "not_top30_predictions": 6
+}

@@ -1,0 +1,105 @@
+{
+    "status": "COMPLETE",
+    "agent": "Portfolio Rebalancing Agent",
+    "agent_number": 5,
+    "rebalance_date": "2025-12-01",
+    "pipeline": "Agent 4 DQN -> Markowitz MPT -> RL Feedback -> Portfolio Rebalancing",
+    "preflight": {
+        "agent4_trade_decisions": true,
+        "agent3_risk_assessment": true,
+        "historical_market_data": true
+    },
+    "stages": {
+        "data_loader": {
+            "status": "PASS",
+            "duration_seconds": 0.3394599000166636
+        },
+        "portfolio_metrics": {
+            "status": "PASS",
+            "duration_seconds": 0.05464719998417422
+        },
+        "mpt_optimizer": {
+            "status": "PASS",
+            "duration_seconds": 0.0737593000230845
+        },
+        "rl_feedback": {
+            "status": "PASS",
+            "duration_seconds": 0.04309079999802634
+        },
+        "rebalancing_environment": {
+            "status": "PASS",
+            "duration_seconds": 0.05340429997886531
+        },
+        "rebalancing_agent": {
+            "status": "PASS",
+            "duration_seconds": 0.1549057999800425
+        },
+        "evaluator": {
+            "status": "PASS",
+            "duration_seconds": 0.06378900000709109
+        },
+        "integration_validator": {
+            "status": "PASS",
+            "duration_seconds": 0.05180439999094233
+        }
+    },
+    "outputs": {
+        "returns_matrix": true,
+        "covariance_matrix": true,
+        "correlation_matrix": true,
+        "rebalancing_input": true,
+        "mpt_solution": true,
+        "rl_adjusted_weights": true,
+        "rebalanced_portfolio_csv": true,
+        "rebalanced_portfolio_parquet": true,
+        "final_portfolio_allocation": true,
+        "data_loader_summary": true,
+        "portfolio_metrics_report": true,
+        "mpt_optimization_summary": true,
+        "rl_feedback_summary": true,
+        "evaluation_summary": true,
+        "agent5_summary": true,
+        "agent4_agent5_validation": true
+    },
+    "integration_validation": {
+        "agent4_not_empty": true,
+        "agent5_not_empty": true,
+        "agent4_unique_symbols": true,
+        "agent5_unique_symbols": true,
+        "same_number_of_symbols": true,
+        "same_symbol_universe": true,
+        "all_symbols_merged": true,
+        "agent4_single_prediction_date": true,
+        "prediction_date_matches_rebalance_date": true,
+        "agent4_actions_valid": true,
+        "agent5_actions_valid": true,
+        "trade_actions_preserved": true,
+        "final_weights_finite": true,
+        "final_weights_nonnegative": true,
+        "final_weights_below_max": true,
+        "final_weights_sum_to_one": true,
+        "agent4_sell_weights_zero": true,
+        "agent4_sell_positions_exited": true,
+        "buy_hold_assets_retained": true,
+        "buy_action_count_preserved": true,
+        "hold_action_count_preserved": true,
+        "sell_action_count_preserved": true,
+        "agent5_summary_complete": true,
+        "evaluation_summary_complete": true
+    },
+    "final_weights": {
+        "BHARATFORG": 0.2124050458974027,
+        "HBLENGINE": 0.1917143049545384,
+        "CGCL": 0.1482783577719474,
+        "CREDITACC": 0.1210681967464396,
+        "360ONE": 0.1046428878132329,
+        "MRPL": 0.0983054649091975,
+        "IDEA": 0.0695730505573509,
+        "HINDCOPPER": 0.0540126913498905,
+        "GVT&D": 0.0,
+        "HONASA": 0.0
+    },
+    "total_duration_seconds": 0.8417439999757335,
+    "methodology_note": "Agent 5 implements a paper-aligned portfolio rebalancing reconstruction combining Markowitz minimum-variance optimization with Agent-4 DQN trade feedback. SELL actions receive zero allocation; BUY and HOLD assets remain MPT eligible.",
+    "evaluation_limitation": "Agent-5 portfolio diagnostic metrics use the same historical 105-day estimation window used to construct the final allocation. They are not a future post-rebalance backtest."
+}

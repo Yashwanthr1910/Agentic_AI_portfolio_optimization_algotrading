@@ -1,0 +1,166 @@
+{
+    "system_name": "Agentic AI Portfolio Optimization and Algorithmic Trading System",
+    "system_version": "1.0",
+    "timestamp": "2026-09-24T12:08:34",
+    "inference_date": "2025-12-01",
+    "agent_sources": {
+        "agent1": {
+            "name": "Stock Selection Agent",
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent2": {
+            "name": "Trend Prediction Agent",
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent3": {
+            "name": "Risk Management Agent",
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent4": {
+            "name": "Trade Execution Agent",
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        },
+        "agent5": {
+            "name": "Portfolio Rebalancing Agent",
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+            "format": "PARQUET",
+            "rows": 10
+        }
+    },
+    "validation_groups": {
+        "output_structure": {
+            "agent1_not_empty": true,
+            "agent1_unique_symbols": true,
+            "agent1_ten_stocks": true,
+            "agent2_not_empty": true,
+            "agent2_unique_symbols": true,
+            "agent2_ten_stocks": true,
+            "agent3_not_empty": true,
+            "agent3_unique_symbols": true,
+            "agent3_ten_stocks": true,
+            "agent4_not_empty": true,
+            "agent4_unique_symbols": true,
+            "agent4_ten_stocks": true,
+            "agent5_not_empty": true,
+            "agent5_unique_symbols": true,
+            "agent5_ten_stocks": true
+        },
+        "symbol_transfer": {
+            "agent1_agent2_same_symbols": true,
+            "agent2_agent3_same_symbols": true,
+            "agent3_agent4_same_symbols": true,
+            "agent4_agent5_same_symbols": true,
+            "all_five_agents_same_symbols": true
+        },
+        "date_consistency": {
+            "all_observed_agent_dates_single": true,
+            "all_observed_dates_match_config": true,
+            "all_observed_dates_consistent": true
+        },
+        "agent1_agent2": {
+            "same_symbol_count": true,
+            "same_symbol_set": true,
+            "top30_probability_finite": true,
+            "top30_probability_range": true,
+            "agent2_rank_finite": true,
+            "trend_class_present": true
+        },
+        "agent2_agent3": {
+            "same_symbol_set": true,
+            "agent3_score_finite": true,
+            "agent3_rank_finite": true,
+            "risk_level_valid": true,
+            "risk_adjusted_weight_finite": true,
+            "risk_weights_nonnegative": true,
+            "risk_weights_sum_to_one": true,
+            "top30_probability_preserved": true,
+            "agent2_rank_preserved": true,
+            "trend_class_preserved": true
+        },
+        "agent3_agent4": {
+            "same_symbol_set": true,
+            "q_hold_finite": true,
+            "q_buy_finite": true,
+            "q_sell_finite": true,
+            "actions_valid": true,
+            "dqn_argmax_matches_action": true,
+            "agent3_score_preserved": true,
+            "agent3_rank_preserved": true,
+            "risk_adjusted_weight_preserved": true,
+            "risk_level_preserved": true,
+            "risk_decision_preserved": true
+        },
+        "agent4_agent5": {
+            "same_symbol_set": true,
+            "trade_actions_preserved": true,
+            "final_weights_finite": true,
+            "final_weights_nonnegative": true,
+            "final_weights_sum_to_one": true,
+            "sell_assets_exist": true,
+            "sell_assets_zero_weight": true,
+            "active_assets_are_not_sell": true
+        },
+        "full_trace": {
+            "trace_not_empty": true,
+            "trace_has_ten_stocks": true,
+            "trace_unique_symbols": true,
+            "trace_symbols_match_agent1": true,
+            "trace_symbols_match_agent5": true,
+            "trace_agent2_probability_matches": true,
+            "trace_agent3_score_matches": true,
+            "trace_agent4_action_matches": true,
+            "trace_agent5_weight_matches": true
+        }
+    },
+    "group_status": {
+        "output_structure": true,
+        "symbol_transfer": true,
+        "date_consistency": true,
+        "agent1_agent2": true,
+        "agent2_agent3": true,
+        "agent3_agent4": true,
+        "agent4_agent5": true,
+        "full_trace": true
+    },
+    "observed_dates": {
+        "agent1": [
+            "2025-12-01"
+        ],
+        "agent2": [
+            "2025-12-01"
+        ],
+        "agent3": [
+            "2025-12-01"
+        ],
+        "agent4": [
+            "2025-12-01"
+        ],
+        "agent5": [
+            "2025-12-01"
+        ]
+    },
+    "action_distribution": {
+        "counts": {
+            "BUY": 1,
+            "HOLD": 7,
+            "SELL": 2
+        },
+        "matches_current_locked_output": true
+    },
+    "final_portfolio": {
+        "stocks": 10,
+        "active_assets": 8,
+        "exited_assets": 2,
+        "weight_sum": 0.9999999999999998
+    },
+    "overall_pass": true,
+    "status": "PASS"
+}

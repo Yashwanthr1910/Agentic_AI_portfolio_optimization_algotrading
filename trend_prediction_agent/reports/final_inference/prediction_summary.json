@@ -1,0 +1,25 @@
+{
+    "agent": "trend_prediction_agent",
+    "status": "final_inference",
+    "architecture": "Dilated LSTM -> Transformer -> Progressive Attention -> Softmax",
+    "target": "relative_21d_top30",
+    "prediction_horizon_days": 21,
+    "sequence_length": 60,
+    "feature_count": 30,
+    "ensemble_seeds": [
+        42,
+        123,
+        456
+    ],
+    "ensemble_method": "mean_probability",
+    "decision_threshold": 0.5,
+    "selected_stocks_received": 10,
+    "predictions_generated": 10,
+    "skipped_stocks": [],
+    "prediction_date_min": "2025-12-01 00:00:00",
+    "prediction_date_max": "2025-12-01 00:00:00",
+    "mean_top30_probability": 0.49587827920913696,
+    "top30_predictions": 4,
+    "output_csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+    "output_parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "COMPLETE",
+    "prediction_date": "2025-12-01",
+    "stocks": 10,
+    "symbols": [
+        "HONASA",
+        "BHARATFORG",
+        "GVT&D",
+        "MRPL",
+        "HINDCOPPER",
+        "360ONE",
+        "CREDITACC",
+        "IDEA",
+        "HBLENGINE",
+        "CGCL"
+    ],
+    "policy": "greedy",
+    "epsilon": 0.0,
+    "training_episodes": 100,
+    "training_learning_steps": 82685,
+    "training_target_updates": 330,
+    "action_counts": {
+        "HOLD": 7,
+        "BUY": 1,
+        "SELL": 2
+    },
+    "csv_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+    "parquet_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+    "parquet_saved": true,
+    "parquet_error": null,
+    "methodology_note": "Final Agent-4 DQN inference uses the seven causal market-state features with greedy BUY/SELL/HOLD action selection. Agent-2 and Agent-3 values are retained as downstream context and are not silently added to the seven-node DQN state."
+}

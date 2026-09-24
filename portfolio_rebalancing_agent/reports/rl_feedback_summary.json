@@ -1,0 +1,62 @@
+{
+    "status": "COMPLETE",
+    "stage": "Agent-4 DQN feedback applied to Agent-5 MPT solution",
+    "rebalance_date": "2025-12-01",
+    "stocks": 10,
+    "actions": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "buy_symbols": [
+        "HBLENGINE"
+    ],
+    "hold_symbols": [
+        "BHARATFORG",
+        "CGCL",
+        "CREDITACC",
+        "360ONE",
+        "MRPL",
+        "IDEA",
+        "HINDCOPPER"
+    ],
+    "sell_symbols": [
+        "GVT&D",
+        "HONASA"
+    ],
+    "weight_summary": {
+        "mpt_weight_sum": 0.9999999999999998,
+        "rl_adjusted_weight_sum": 1.0,
+        "total_absolute_adjustment": 2.498001805406602e-16
+    },
+    "final_weights": {
+        "BHARATFORG": 0.21240504589740275,
+        "HBLENGINE": 0.19171430495453845,
+        "CGCL": 0.14827835777194742,
+        "CREDITACC": 0.12106819674643962,
+        "360ONE": 0.10464288781323293,
+        "MRPL": 0.09830546490919753,
+        "IDEA": 0.06957305055735091,
+        "HINDCOPPER": 0.054012691349890514,
+        "GVT&D": 0.0,
+        "HONASA": 0.0
+    },
+    "validation": {
+        "feedback_not_empty": true,
+        "one_row_per_symbol": true,
+        "actions_valid": true,
+        "weights_finite": true,
+        "weights_nonnegative": true,
+        "weights_below_max": true,
+        "weights_sum_to_one": true,
+        "sell_weights_zero": true,
+        "eligible_action_mask_valid": true,
+        "sell_action_mask_valid": true,
+        "no_arbitrary_buy_hold_modifier": true,
+        "mpt_weights_finite": true,
+        "final_target_equals_rl_weight": true
+    },
+    "input": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\mpt_solution.csv",
+    "output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\rl_adjusted_weights.csv",
+    "methodology_note": "Agent 4 is the learned DQN reinforcement-learning component. Agent 5 uses those DQN actions as feedback for portfolio rebalancing. SELL actions enforce zero allocation. BUY and HOLD actions preserve the allocation selected by Markowitz MPT. No arbitrary BUY or HOLD weight multiplier is introduced because the reference paper does not report such parameters."
+}

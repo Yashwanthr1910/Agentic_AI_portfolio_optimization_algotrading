@@ -1,0 +1,42 @@
+{
+    "agent2_rows": 10,
+    "agent3_rows": 10,
+    "agent2_symbols": 10,
+    "agent3_symbols": 10,
+    "checks": {
+        "symbol_coverage_exact": true,
+        "prediction_dates_preserved": true,
+        "probabilities_preserved": true,
+        "ensemble_std_preserved": true,
+        "agent2_ranks_preserved": true,
+        "trend_classes_preserved": true,
+        "historical_volatility_valid": true,
+        "individual_var_valid": true,
+        "sharpe_valid": true,
+        "paper_core_score_valid": true,
+        "agent3_score_valid": true,
+        "agent3_ranks_valid": true,
+        "risk_levels_valid": true,
+        "risk_decisions_valid": true,
+        "weight_sum_valid": true,
+        "weights_nonnegative": true,
+        "symbols_unique": true,
+        "agent4_ready": true
+    },
+    "agent4_candidate_columns": [
+        "symbol",
+        "top30_probability",
+        "ensemble_std",
+        "trend_class",
+        "historical_volatility_annual",
+        "individual_var_percent",
+        "sharpe_ratio",
+        "risk_contribution_percent",
+        "max_drawdown_percent",
+        "agent3_score",
+        "agent3_rank",
+        "risk_level",
+        "risk_adjusted_weight"
+    ],
+    "status": "PASS"
+}

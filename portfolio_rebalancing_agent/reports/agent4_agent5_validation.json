@@ -1,0 +1,73 @@
+{
+    "status": "PASS",
+    "integration": "Agent 4 -> Agent 5",
+    "rebalance_date": "2025-12-01",
+    "agent4_source": "PARQUET",
+    "agent5_source": "PARQUET",
+    "agent4_stocks": 10,
+    "agent5_stocks": 10,
+    "agent4_actions": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "agent5_preserved_actions": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "active_symbols": [
+        "BHARATFORG",
+        "HBLENGINE",
+        "CGCL",
+        "CREDITACC",
+        "360ONE",
+        "MRPL",
+        "IDEA",
+        "HINDCOPPER"
+    ],
+    "sell_exit_symbols": [
+        "GVT&D",
+        "HONASA"
+    ],
+    "final_weights": {
+        "BHARATFORG": 0.2124050458974027,
+        "HBLENGINE": 0.1917143049545384,
+        "CGCL": 0.1482783577719474,
+        "CREDITACC": 0.1210681967464396,
+        "360ONE": 0.1046428878132329,
+        "MRPL": 0.0983054649091975,
+        "IDEA": 0.0695730505573509,
+        "HINDCOPPER": 0.0540126913498905,
+        "GVT&D": 0.0,
+        "HONASA": 0.0
+    },
+    "validation": {
+        "agent4_not_empty": true,
+        "agent5_not_empty": true,
+        "agent4_unique_symbols": true,
+        "agent5_unique_symbols": true,
+        "same_number_of_symbols": true,
+        "same_symbol_universe": true,
+        "all_symbols_merged": true,
+        "agent4_single_prediction_date": true,
+        "prediction_date_matches_rebalance_date": true,
+        "agent4_actions_valid": true,
+        "agent5_actions_valid": true,
+        "trade_actions_preserved": true,
+        "final_weights_finite": true,
+        "final_weights_nonnegative": true,
+        "final_weights_below_max": true,
+        "final_weights_sum_to_one": true,
+        "agent4_sell_weights_zero": true,
+        "agent4_sell_positions_exited": true,
+        "buy_hold_assets_retained": true,
+        "buy_action_count_preserved": true,
+        "hold_action_count_preserved": true,
+        "sell_action_count_preserved": true,
+        "agent5_summary_complete": true,
+        "evaluation_summary_complete": true
+    },
+    "methodology_note": "The Agent-4 DQN BUY/HOLD/SELL decisions are transferred into Agent 5 without modification. SELL stocks are forced to zero final allocation. BUY and HOLD stocks remain eligible for Markowitz portfolio optimization.",
+    "system_limitation": "The historical return evaluation in Agent 5 uses the same 105-day estimation interval used to construct the 2025-12-01 allocation. It is diagnostic rather than a future post-rebalance backtest."
+}

@@ -1,0 +1,162 @@
+{
+    "status": "COMPLETE",
+    "agent": "Portfolio Rebalancing Agent",
+    "stage": "Portfolio state transition",
+    "rebalance_date": "2025-12-01",
+    "current_weight_source": "agent3_risk_adjusted_weight",
+    "stocks": 10,
+    "agent4_actions": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "rebalancing_actions": {
+        "BUY": 5,
+        "SELL": 5,
+        "HOLD": 0
+    },
+    "turnover": 0.6136331660423937,
+    "current_weight_sum": 1.0,
+    "target_weight_sum": 1.0,
+    "current_portfolio_metrics": {
+        "observations": 105,
+        "daily_mean_return": 0.0014901760361065166,
+        "daily_volatility": 0.010545277994017688,
+        "cumulative_return": 0.1624911427003033,
+        "annualized_return": 0.43527515179562615,
+        "annualized_arithmetic_mean_return": 0.3755243610988422,
+        "annualized_volatility": 0.16740109846927725,
+        "sharpe_ratio": 2.600192924513642,
+        "max_drawdown": -0.06966965510838907,
+        "historical_var_95": 0.0170895671327326,
+        "turnover": 0.0,
+        "herfindahl_index": 0.10177033619618908,
+        "effective_number_of_assets": 9.82604595186005,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.07878135662355054,
+        "maximum_weight": 0.12264733626164477
+    },
+    "target_portfolio_metrics": {
+        "observations": 105,
+        "daily_mean_return": 0.001831506417539364,
+        "daily_volatility": 0.011310551906128046,
+        "cumulative_return": 0.20384388838924572,
+        "annualized_return": 0.5608760379254449,
+        "annualized_arithmetic_mean_return": 0.46153961721991976,
+        "annualized_volatility": 0.1795494452070143,
+        "sharpe_ratio": 3.1237971093632413,
+        "max_drawdown": -0.08116139636406228,
+        "historical_var_95": 0.015284745479487914,
+        "turnover": 0.6136331660423937,
+        "herfindahl_index": 0.14688613648548035,
+        "effective_number_of_assets": 6.80799443655358,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.0,
+        "maximum_weight": 0.21240504589740275
+    },
+    "portfolio_transition": {
+        "BHARATFORG": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.11355629860812037,
+            "target_weight": 0.21240504589740275,
+            "weight_change": 0.09884874728928238,
+            "rebalance_direction": "BUY",
+            "turnover_contribution": 0.09884874728928238
+        },
+        "HBLENGINE": {
+            "agent4_action": "BUY",
+            "current_weight": 0.08525485472431284,
+            "target_weight": 0.19171430495453845,
+            "weight_change": 0.10645945023022561,
+            "rebalance_direction": "BUY",
+            "turnover_contribution": 0.10645945023022561
+        },
+        "CGCL": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.07878135662355054,
+            "target_weight": 0.14827835777194742,
+            "weight_change": 0.06949700114839688,
+            "rebalance_direction": "BUY",
+            "turnover_contribution": 0.06949700114839688
+        },
+        "CREDITACC": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.09593258102191385,
+            "target_weight": 0.12106819674643962,
+            "weight_change": 0.025135615724525773,
+            "rebalance_direction": "BUY",
+            "turnover_contribution": 0.025135615724525773
+        },
+        "360ONE": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.09776711918446665,
+            "target_weight": 0.10464288781323293,
+            "weight_change": 0.0068757686287662795,
+            "rebalance_direction": "BUY",
+            "turnover_contribution": 0.0068757686287662795
+        },
+        "MRPL": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.10612927956969996,
+            "target_weight": 0.09830546490919753,
+            "weight_change": -0.007823814660502429,
+            "rebalance_direction": "SELL",
+            "turnover_contribution": 0.007823814660502429
+        },
+        "IDEA": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.08562717352283314,
+            "target_weight": 0.06957305055735091,
+            "weight_change": -0.016054122965482226,
+            "rebalance_direction": "SELL",
+            "turnover_contribution": 0.016054122965482226
+        },
+        "HINDCOPPER": {
+            "agent4_action": "HOLD",
+            "current_weight": 0.10279121414463996,
+            "target_weight": 0.054012691349890514,
+            "weight_change": -0.048778522794749445,
+            "rebalance_direction": "SELL",
+            "turnover_contribution": 0.048778522794749445
+        },
+        "GVT&D": {
+            "agent4_action": "SELL",
+            "current_weight": 0.11151278633881796,
+            "target_weight": 0.0,
+            "weight_change": -0.11151278633881796,
+            "rebalance_direction": "SELL",
+            "turnover_contribution": 0.11151278633881796
+        },
+        "HONASA": {
+            "agent4_action": "SELL",
+            "current_weight": 0.12264733626164477,
+            "target_weight": 0.0,
+            "weight_change": -0.12264733626164477,
+            "rebalance_direction": "SELL",
+            "turnover_contribution": 0.12264733626164477
+        }
+    },
+    "validation": {
+        "transition_not_empty": true,
+        "one_row_per_symbol": true,
+        "current_weights_finite": true,
+        "current_weights_nonnegative": true,
+        "current_weights_sum_to_one": true,
+        "target_weights_finite": true,
+        "target_weights_nonnegative": true,
+        "target_weights_sum_to_one": true,
+        "weight_change_identity": true,
+        "rebalance_directions_valid": true,
+        "dqn_sell_target_weights_zero": true,
+        "turnover_contributions_nonnegative": true,
+        "turnover_equals_absolute_weight_change": true,
+        "turnover_finite": true,
+        "turnover_nonnegative": true,
+        "current_metrics_finite": true,
+        "target_metrics_finite": true,
+        "all_dqn_sell_stocks_exit": true
+    },
+    "output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\rebalancing_transition.csv",
+    "methodology_note": "The provisional current portfolio uses Agent-3 risk-adjusted weights when available. The target portfolio uses the Agent-5 MPT solution after Agent-4 DQN feedback. Agent-4 SELL actions receive zero target allocation. BUY and HOLD remain eligible for MPT allocation.",
+    "evaluation_note": "Portfolio metrics are calculated over the same 105-day historical estimation window used to construct the MPT solution. They are diagnostic in-sample statistics and must not be interpreted as a future post-rebalance backtest."
+}

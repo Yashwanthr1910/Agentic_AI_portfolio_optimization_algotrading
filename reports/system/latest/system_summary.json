@@ -1,0 +1,1199 @@
+{
+    "run_id": "run_20260924_120720",
+    "mode": "run",
+    "status": "PASS",
+    "overall_pass": true,
+    "agents": {
+        "agent1": {
+            "label": "AGENT 1 - STOCK SELECTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\main.py",
+            "started_at": "2026-09-24T12:07:20",
+            "ended_at": "2026-09-24T12:07:59",
+            "start_epoch": 1790231840.6033185,
+            "duration_seconds": 39.03209161758423,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet"
+                    ]
+                },
+                "group_2": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:58",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:58",
+                            "fresh": true
+                        }
+                    ]
+                },
+                "group_2": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:59",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:59",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        "agent2": {
+            "label": "AGENT 2 - TREND PREDICTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\main.py",
+            "started_at": "2026-09-24T12:07:59",
+            "ended_at": "2026-09-24T12:08:21",
+            "start_epoch": 1790231879.6379275,
+            "duration_seconds": 21.540390491485596,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:20",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:20",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        "agent3": {
+            "label": "AGENT 3 - RISK MANAGEMENT AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\main.py",
+            "started_at": "2026-09-24T12:08:21",
+            "ended_at": "2026-09-24T12:08:23",
+            "start_epoch": 1790231901.1813133,
+            "duration_seconds": 2.2869656085968018,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:23",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:23",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        "agent4": {
+            "label": "AGENT 4 - TRADE EXECUTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\main.py",
+            "started_at": "2026-09-24T12:08:23",
+            "ended_at": "2026-09-24T12:08:31",
+            "start_epoch": 1790231903.4704506,
+            "duration_seconds": 7.674965143203735,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:30",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:30",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        "agent5": {
+            "label": "AGENT 5 - PORTFOLIO REBALANCING AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\main.py",
+            "started_at": "2026-09-24T12:08:31",
+            "ended_at": "2026-09-24T12:08:33",
+            "start_epoch": 1790231911.1454158,
+            "duration_seconds": 2.639387845993042,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet"
+                    ]
+                },
+                "group_2": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        }
+                    ]
+                },
+                "group_2": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "stages": [
+        {
+            "label": "PRE-RUN SYSTEM PREFLIGHT",
+            "started_at": "2026-09-24T12:07:20",
+            "ended_at": "2026-09-24T12:07:20",
+            "duration_seconds": 0.04357576370239258,
+            "success": true,
+            "error": null
+        },
+        {
+            "label": "AGENT 1 - STOCK SELECTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\main.py",
+            "started_at": "2026-09-24T12:07:20",
+            "ended_at": "2026-09-24T12:07:59",
+            "start_epoch": 1790231840.6033185,
+            "duration_seconds": 39.03209161758423,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet"
+                    ]
+                },
+                "group_2": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:58",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:58",
+                            "fresh": true
+                        }
+                    ]
+                },
+                "group_2": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:59",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\outputs\\rankings.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:07:59",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "AGENT 2 - TREND PREDICTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\main.py",
+            "started_at": "2026-09-24T12:07:59",
+            "ended_at": "2026-09-24T12:08:21",
+            "start_epoch": 1790231879.6379275,
+            "duration_seconds": 21.540390491485596,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:20",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:20",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "AGENT 3 - RISK MANAGEMENT AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\main.py",
+            "started_at": "2026-09-24T12:08:21",
+            "ended_at": "2026-09-24T12:08:23",
+            "start_epoch": 1790231901.1813133,
+            "duration_seconds": 2.2869656085968018,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:23",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:23",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "AGENT 4 - TRADE EXECUTION AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\main.py",
+            "started_at": "2026-09-24T12:08:23",
+            "ended_at": "2026-09-24T12:08:31",
+            "start_epoch": 1790231903.4704506,
+            "duration_seconds": 7.674965143203735,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:30",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:30",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "AGENT 5 - PORTFOLIO REBALANCING AGENT",
+            "script": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\main.py",
+            "started_at": "2026-09-24T12:08:31",
+            "ended_at": "2026-09-24T12:08:33",
+            "start_epoch": 1790231911.1454158,
+            "duration_seconds": 2.639387845993042,
+            "return_code": 0,
+            "success": true,
+            "output_check": true,
+            "output_report": {
+                "group_1": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet"
+                    ]
+                },
+                "group_2": {
+                    "valid": true,
+                    "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv",
+                    "candidates": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv"
+                    ]
+                }
+            },
+            "freshness_check": true,
+            "freshness_report": {
+                "group_1": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        },
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        }
+                    ]
+                },
+                "group_2": {
+                    "fresh": true,
+                    "fresh_files": [
+                        "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv"
+                    ],
+                    "candidates": [
+                        {
+                            "path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\final_portfolio_allocation.csv",
+                            "exists": true,
+                            "modified": "2026-09-24T12:08:33",
+                            "fresh": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "BUILDING UNIFIED FIVE-AGENT TRACE",
+            "started_at": "2026-09-24T12:08:33",
+            "ended_at": "2026-09-24T12:08:34",
+            "duration_seconds": 0.2449355125427246,
+            "success": true,
+            "error": null
+        },
+        {
+            "label": "POST-RUN SYSTEM PREFLIGHT",
+            "started_at": "2026-09-24T12:08:34",
+            "ended_at": "2026-09-24T12:08:34",
+            "duration_seconds": 0.06526994705200195,
+            "success": true,
+            "error": null
+        },
+        {
+            "label": "FINAL AGENT 1 -> 5 INTEGRATION VALIDATION",
+            "started_at": "2026-09-24T12:08:34",
+            "ended_at": "2026-09-24T12:08:34",
+            "duration_seconds": 0.17697548866271973,
+            "success": true,
+            "error": null
+        }
+    ],
+    "initial_preflight": {
+        "system_name": "Agentic AI Portfolio Optimization and Algorithmic Trading System",
+        "system_version": "1.0",
+        "mode": "run",
+        "timestamp": "2026-09-24T12:07:20",
+        "project_root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading",
+        "final_inference_date": "2025-12-01",
+        "environment": {
+            "checks": {
+                "python_version_supported": true,
+                "running_inside_project_venv": true,
+                "required_packages_available": true
+            },
+            "python": {
+                "version": "3.11.9",
+                "executable": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\.venv\\Scripts\\python.exe",
+                "platform": "Windows-10-10.0.26200-SP0"
+            },
+            "required_packages": {
+                "numpy": true,
+                "pandas": true,
+                "scipy": true,
+                "sklearn": true,
+                "pyarrow": true,
+                "tensorflow": true
+            },
+            "optional_packages": {
+                "pytest": true,
+                "matplotlib": false
+            }
+        },
+        "structure": {
+            "checks": {
+                "agent1_root_exists": true,
+                "agent1_entrypoint_exists": true,
+                "agent2_root_exists": true,
+                "agent2_entrypoint_exists": true,
+                "agent3_root_exists": true,
+                "agent3_entrypoint_exists": true,
+                "agent4_root_exists": true,
+                "agent4_entrypoint_exists": true,
+                "agent5_root_exists": true,
+                "agent5_entrypoint_exists": true
+            },
+            "agents": {
+                "agent1": {
+                    "name": "Stock Selection Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\main.py"
+                },
+                "agent2": {
+                    "name": "Trend Prediction Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\main.py"
+                },
+                "agent3": {
+                    "name": "Risk Management Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\main.py"
+                },
+                "agent4": {
+                    "name": "Trade Execution Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\main.py"
+                },
+                "agent5": {
+                    "name": "Portfolio Rebalancing Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\main.py"
+                }
+            }
+        },
+        "support": {
+            "checks": {
+                "agent1_market_data": true,
+                "agent1_features": true,
+                "agent1_labeled_features": true,
+                "agent2_scaler": true,
+                "agent2_sequence_metadata": true,
+                "agent2_seed42_weights": true,
+                "agent2_seed123_weights": true,
+                "agent2_seed456_weights": true
+            },
+            "upstream_outputs": {
+                "agent1_selected_stocks": true,
+                "agent2_predictions": true,
+                "agent3_risk_output": true,
+                "agent4_trade_output": true
+            },
+            "details": {
+                "agent1_market_data": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\nifty500_daily.parquet",
+                "agent1_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\features.parquet",
+                "agent1_labeled_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\labeled_features.parquet",
+                "agent2_scaler": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\scaler.pkl",
+                "agent2_sequence_metadata": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\sequence_metadata.json",
+                "agent2_seed42_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_42.weights.h5",
+                "agent2_seed123_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_123.weights.h5",
+                "agent2_seed456_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_456.weights.h5",
+                "agent1_selected_stocks": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                "agent2_predictions": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                "agent3_risk_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                "agent4_trade_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+            }
+        },
+        "agent_results": {},
+        "symbol_chain": {},
+        "date_chain": {},
+        "stage_status": {
+            "environment": true,
+            "structure": true,
+            "support": true,
+            "outputs": null,
+            "content": null,
+            "symbol_chain": null,
+            "date_chain": null
+        },
+        "overall_pass": true
+    },
+    "final_preflight": {
+        "system_name": "Agentic AI Portfolio Optimization and Algorithmic Trading System",
+        "system_version": "1.0",
+        "mode": "verify",
+        "timestamp": "2026-09-24T12:08:34",
+        "project_root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading",
+        "final_inference_date": "2025-12-01",
+        "environment": {
+            "checks": {
+                "python_version_supported": true,
+                "running_inside_project_venv": true,
+                "required_packages_available": true
+            },
+            "python": {
+                "version": "3.11.9",
+                "executable": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\.venv\\Scripts\\python.exe",
+                "platform": "Windows-10-10.0.26200-SP0"
+            },
+            "required_packages": {
+                "numpy": true,
+                "pandas": true,
+                "scipy": true,
+                "sklearn": true,
+                "pyarrow": true,
+                "tensorflow": true
+            },
+            "optional_packages": {
+                "pytest": true,
+                "matplotlib": false
+            }
+        },
+        "structure": {
+            "checks": {
+                "agent1_root_exists": true,
+                "agent1_entrypoint_exists": true,
+                "agent2_root_exists": true,
+                "agent2_entrypoint_exists": true,
+                "agent3_root_exists": true,
+                "agent3_entrypoint_exists": true,
+                "agent4_root_exists": true,
+                "agent4_entrypoint_exists": true,
+                "agent5_root_exists": true,
+                "agent5_entrypoint_exists": true
+            },
+            "agents": {
+                "agent1": {
+                    "name": "Stock Selection Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\main.py"
+                },
+                "agent2": {
+                    "name": "Trend Prediction Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\main.py"
+                },
+                "agent3": {
+                    "name": "Risk Management Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\main.py"
+                },
+                "agent4": {
+                    "name": "Trade Execution Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\main.py"
+                },
+                "agent5": {
+                    "name": "Portfolio Rebalancing Agent",
+                    "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent",
+                    "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\main.py"
+                }
+            }
+        },
+        "support": {
+            "checks": {
+                "agent1_market_data": true,
+                "agent1_features": true,
+                "agent1_labeled_features": true,
+                "agent2_scaler": true,
+                "agent2_sequence_metadata": true,
+                "agent2_seed42_weights": true,
+                "agent2_seed123_weights": true,
+                "agent2_seed456_weights": true,
+                "agent1_selected_stocks": true,
+                "agent2_predictions": true,
+                "agent3_risk_output": true,
+                "agent4_trade_output": true
+            },
+            "upstream_outputs": {
+                "agent1_selected_stocks": true,
+                "agent2_predictions": true,
+                "agent3_risk_output": true,
+                "agent4_trade_output": true
+            },
+            "details": {
+                "agent1_market_data": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\nifty500_daily.parquet",
+                "agent1_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\features.parquet",
+                "agent1_labeled_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\labeled_features.parquet",
+                "agent2_scaler": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\scaler.pkl",
+                "agent2_sequence_metadata": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\sequence_metadata.json",
+                "agent2_seed42_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_42.weights.h5",
+                "agent2_seed123_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_123.weights.h5",
+                "agent2_seed456_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_456.weights.h5",
+                "agent1_selected_stocks": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                "agent2_predictions": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                "agent3_risk_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                "agent4_trade_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+            }
+        },
+        "agent_results": {
+            "agent1": {
+                "checks": {
+                    "not_empty": true,
+                    "required_columns": true,
+                    "expected_rows": true,
+                    "unique_symbols": true,
+                    "symbols_non_null": "True",
+                    "final_date_matches": true
+                },
+                "rows": 10,
+                "symbols": [
+                    "360ONE",
+                    "BHARATFORG",
+                    "CGCL",
+                    "CREDITACC",
+                    "GVT&D",
+                    "HBLENGINE",
+                    "HINDCOPPER",
+                    "HONASA",
+                    "IDEA",
+                    "MRPL"
+                ],
+                "dates": [
+                    "2025-12-01"
+                ],
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                "format": "PARQUET"
+            },
+            "agent2": {
+                "checks": {
+                    "not_empty": true,
+                    "required_columns": true,
+                    "expected_rows": true,
+                    "unique_symbols": true,
+                    "top30_probability_finite": true,
+                    "probability_range_valid": true,
+                    "rank_finite": true,
+                    "trend_class_valid": "True",
+                    "final_date_matches": true
+                },
+                "rows": 10,
+                "symbols": [
+                    "360ONE",
+                    "BHARATFORG",
+                    "CGCL",
+                    "CREDITACC",
+                    "GVT&D",
+                    "HBLENGINE",
+                    "HINDCOPPER",
+                    "HONASA",
+                    "IDEA",
+                    "MRPL"
+                ],
+                "dates": [
+                    "2025-12-01"
+                ],
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                "format": "PARQUET"
+            },
+            "agent3": {
+                "checks": {
+                    "not_empty": true,
+                    "required_columns": true,
+                    "expected_rows": true,
+                    "unique_symbols": true,
+                    "agent3_score_finite": true,
+                    "agent3_rank_finite": true,
+                    "risk_weight_finite": true,
+                    "risk_weights_nonnegative": true,
+                    "risk_weights_sum_to_one": true,
+                    "risk_levels_valid": "True",
+                    "final_date_matches": true
+                },
+                "rows": 10,
+                "symbols": [
+                    "360ONE",
+                    "BHARATFORG",
+                    "CGCL",
+                    "CREDITACC",
+                    "GVT&D",
+                    "HBLENGINE",
+                    "HINDCOPPER",
+                    "HONASA",
+                    "IDEA",
+                    "MRPL"
+                ],
+                "dates": [
+                    "2025-12-01"
+                ],
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                "format": "PARQUET"
+            },
+            "agent4": {
+                "checks": {
+                    "not_empty": true,
+                    "required_columns": true,
+                    "expected_rows": true,
+                    "unique_symbols": true,
+                    "actions_valid": "True",
+                    "q_hold_finite": true,
+                    "q_buy_finite": true,
+                    "q_sell_finite": true,
+                    "final_date_matches": true
+                },
+                "rows": 10,
+                "symbols": [
+                    "360ONE",
+                    "BHARATFORG",
+                    "CGCL",
+                    "CREDITACC",
+                    "GVT&D",
+                    "HBLENGINE",
+                    "HINDCOPPER",
+                    "HONASA",
+                    "IDEA",
+                    "MRPL"
+                ],
+                "dates": [
+                    "2025-12-01"
+                ],
+                "action_counts": {
+                    "SELL": 2,
+                    "HOLD": 7,
+                    "BUY": 1
+                },
+                "current_distribution_match": true,
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+                "format": "PARQUET"
+            },
+            "agent5": {
+                "checks": {
+                    "not_empty": true,
+                    "required_columns": true,
+                    "expected_rows": true,
+                    "unique_symbols": true,
+                    "final_weight_finite": true,
+                    "final_weights_nonnegative": true,
+                    "final_weights_sum_to_one": true,
+                    "actions_valid": "True",
+                    "sell_weights_zero": true,
+                    "final_date_matches": true
+                },
+                "rows": 10,
+                "symbols": [
+                    "360ONE",
+                    "BHARATFORG",
+                    "CGCL",
+                    "CREDITACC",
+                    "GVT&D",
+                    "HBLENGINE",
+                    "HINDCOPPER",
+                    "HONASA",
+                    "IDEA",
+                    "MRPL"
+                ],
+                "dates": [
+                    "2025-12-01"
+                ],
+                "active_assets": 8,
+                "exited_assets": 2,
+                "weight_sum": 0.9999999999999998,
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+                "format": "PARQUET"
+            }
+        },
+        "symbol_chain": {
+            "agent1_agent2_same_symbols": true,
+            "agent2_agent3_same_symbols": true,
+            "agent3_agent4_same_symbols": true,
+            "agent4_agent5_same_symbols": true,
+            "all_agents_same_symbols": true
+        },
+        "date_chain": {
+            "all_observed_dates_single": true,
+            "all_observed_dates_match_final_date": true,
+            "observed_agent_dates_consistent": true
+        },
+        "stage_status": {
+            "environment": true,
+            "structure": true,
+            "support": true,
+            "outputs": true,
+            "content": true,
+            "symbol_chain": true,
+            "date_chain": true
+        },
+        "overall_pass": true
+    },
+    "integration": {
+        "system_name": "Agentic AI Portfolio Optimization and Algorithmic Trading System",
+        "system_version": "1.0",
+        "timestamp": "2026-09-24T12:08:34",
+        "inference_date": "2025-12-01",
+        "agent_sources": {
+            "agent1": {
+                "name": "Stock Selection Agent",
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+                "format": "PARQUET",
+                "rows": 10
+            },
+            "agent2": {
+                "name": "Trend Prediction Agent",
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+                "format": "PARQUET",
+                "rows": 10
+            },
+            "agent3": {
+                "name": "Risk Management Agent",
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+                "format": "PARQUET",
+                "rows": 10
+            },
+            "agent4": {
+                "name": "Trade Execution Agent",
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+                "format": "PARQUET",
+                "rows": 10
+            },
+            "agent5": {
+                "name": "Portfolio Rebalancing Agent",
+                "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+                "format": "PARQUET",
+                "rows": 10
+            }
+        },
+        "validation_groups": {
+            "output_structure": {
+                "agent1_not_empty": true,
+                "agent1_unique_symbols": true,
+                "agent1_ten_stocks": true,
+                "agent2_not_empty": true,
+                "agent2_unique_symbols": true,
+                "agent2_ten_stocks": true,
+                "agent3_not_empty": true,
+                "agent3_unique_symbols": true,
+                "agent3_ten_stocks": true,
+                "agent4_not_empty": true,
+                "agent4_unique_symbols": true,
+                "agent4_ten_stocks": true,
+                "agent5_not_empty": true,
+                "agent5_unique_symbols": true,
+                "agent5_ten_stocks": true
+            },
+            "symbol_transfer": {
+                "agent1_agent2_same_symbols": true,
+                "agent2_agent3_same_symbols": true,
+                "agent3_agent4_same_symbols": true,
+                "agent4_agent5_same_symbols": true,
+                "all_five_agents_same_symbols": true
+            },
+            "date_consistency": {
+                "all_observed_agent_dates_single": true,
+                "all_observed_dates_match_config": true,
+                "all_observed_dates_consistent": true
+            },
+            "agent1_agent2": {
+                "same_symbol_count": true,
+                "same_symbol_set": true,
+                "top30_probability_finite": true,
+                "top30_probability_range": true,
+                "agent2_rank_finite": true,
+                "trend_class_present": true
+            },
+            "agent2_agent3": {
+                "same_symbol_set": true,
+                "agent3_score_finite": true,
+                "agent3_rank_finite": true,
+                "risk_level_valid": true,
+                "risk_adjusted_weight_finite": true,
+                "risk_weights_nonnegative": true,
+                "risk_weights_sum_to_one": true,
+                "top30_probability_preserved": true,
+                "agent2_rank_preserved": true,
+                "trend_class_preserved": true
+            },
+            "agent3_agent4": {
+                "same_symbol_set": true,
+                "q_hold_finite": true,
+                "q_buy_finite": true,
+                "q_sell_finite": true,
+                "actions_valid": true,
+                "dqn_argmax_matches_action": true,
+                "agent3_score_preserved": true,
+                "agent3_rank_preserved": true,
+                "risk_adjusted_weight_preserved": true,
+                "risk_level_preserved": true,
+                "risk_decision_preserved": true
+            },
+            "agent4_agent5": {
+                "same_symbol_set": true,
+                "trade_actions_preserved": true,
+                "final_weights_finite": true,
+                "final_weights_nonnegative": true,
+                "final_weights_sum_to_one": true,
+                "sell_assets_exist": true,
+                "sell_assets_zero_weight": true,
+                "active_assets_are_not_sell": true
+            },
+            "full_trace": {
+                "trace_not_empty": true,
+                "trace_has_ten_stocks": true,
+                "trace_unique_symbols": true,
+                "trace_symbols_match_agent1": true,
+                "trace_symbols_match_agent5": true,
+                "trace_agent2_probability_matches": true,
+                "trace_agent3_score_matches": true,
+                "trace_agent4_action_matches": true,
+                "trace_agent5_weight_matches": true
+            }
+        },
+        "group_status": {
+            "output_structure": true,
+            "symbol_transfer": true,
+            "date_consistency": true,
+            "agent1_agent2": true,
+            "agent2_agent3": true,
+            "agent3_agent4": true,
+            "agent4_agent5": true,
+            "full_trace": true
+        },
+        "observed_dates": {
+            "agent1": [
+                "2025-12-01"
+            ],
+            "agent2": [
+                "2025-12-01"
+            ],
+            "agent3": [
+                "2025-12-01"
+            ],
+            "agent4": [
+                "2025-12-01"
+            ],
+            "agent5": [
+                "2025-12-01"
+            ]
+        },
+        "action_distribution": {
+            "counts": {
+                "BUY": 1,
+                "HOLD": 7,
+                "SELL": 2
+            },
+            "matches_current_locked_output": true
+        },
+        "final_portfolio": {
+            "stocks": 10,
+            "active_assets": 8,
+            "exited_assets": 2,
+            "weight_sum": 0.9999999999999998
+        },
+        "overall_pass": true,
+        "status": "PASS"
+    },
+    "snapshot": {
+        "run_id": "run_20260924_120720",
+        "run_directory": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720",
+        "files": {
+            "agent1_selected_stocks.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent1_selected_stocks.csv",
+            "agent1_selected_stocks.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent1_selected_stocks.parquet",
+            "agent1_rankings.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent1_rankings.csv",
+            "agent2_trend_predictions.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent2_trend_predictions.csv",
+            "agent2_trend_predictions.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent2_trend_predictions.parquet",
+            "agent3_risk_assessment.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent3_risk_assessment.csv",
+            "agent3_risk_assessment.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent3_risk_assessment.parquet",
+            "agent4_trade_decisions.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent4_trade_decisions.csv",
+            "agent4_trade_decisions.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent4_trade_decisions.parquet",
+            "agent5_rebalanced_portfolio.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent5_rebalanced_portfolio.csv",
+            "agent5_rebalanced_portfolio.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent5_rebalanced_portfolio.parquet",
+            "agent5_final_portfolio_allocation.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\agent5_final_portfolio_allocation.csv",
+            "full_agent_trace.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\full_agent_trace.csv",
+            "full_agent_trace.parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\full_agent_trace.parquet",
+            "preflight_summary.json": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\preflight_summary.json",
+            "output_collector_summary.json": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\output_collector_summary.json",
+            "integration_summary.json": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\integration_summary.json",
+            "stage_timings.csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\reports\\system\\runs\\run_20260924_120720\\stage_timings.csv"
+        }
+    },
+    "started_at": "2026-09-24T12:07:20",
+    "finished_at": "2026-09-24T12:08:34"
+}

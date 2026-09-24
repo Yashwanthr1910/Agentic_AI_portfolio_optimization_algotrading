@@ -1,0 +1,28 @@
+{
+    "agent": 3,
+    "agent_name": "Risk Management Agent",
+    "stocks": 10,
+    "paper_core_metrics": [
+        "Historical Volatility",
+        "Value at Risk",
+        "Sharpe Ratio"
+    ],
+    "implementation_enhancements": [
+        "Drawdown diagnostic",
+        "Percentile normalization",
+        "Combined Agent-3 score",
+        "Risk-level classification",
+        "Risk-adjusted provisional allocation"
+    ],
+    "score_weights": {
+        "trend": 0.5,
+        "paper_core_risk": 0.4,
+        "drawdown": 0.1
+    },
+    "portfolio_metrics": {
+        "var_percent": 2.534069655322363,
+        "sharpe_ratio": 1.2146569203902084,
+        "max_drawdown_percent": -22.316297007982133
+    },
+    "best_agent3_stock": "HONASA"
+}

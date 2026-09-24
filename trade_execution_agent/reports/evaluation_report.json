@@ -1,0 +1,24 @@
+{
+    "status": "PASS",
+    "mode": "paper_backtest",
+    "start": "2019-01-01",
+    "end": "2023-12-29",
+    "stocks": 10,
+    "mean_return_percent": 43.173471319758804,
+    "median_return_percent": 34.29369297431482,
+    "positive_stocks": 10,
+    "negative_stocks": 0,
+    "mean_max_drawdown_percent": -14.831942112521777,
+    "total_executed_trades": 2312,
+    "checks": {
+        "results_not_empty": true,
+        "all_symbols_evaluated": true,
+        "returns_finite": true,
+        "drawdown_nonpositive": true,
+        "action_counts_equal_steps": true,
+        "trade_counter_consistent": true,
+        "greedy_policy": true
+    },
+    "results_path": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\reports\\evaluation_stock_results.csv",
+    "methodology_note": "2019-2023 is treated as the paper-aligned investing/backtesting period. 2024 is retained only as an additional robustness test."
+}

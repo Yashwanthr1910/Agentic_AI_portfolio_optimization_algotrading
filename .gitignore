@@ -1,0 +1,112 @@
+@'
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# IDE / OS
+# ============================================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# TEST / CACHE
+# ============================================================
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# LOGS
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# STREAMLIT
+# ============================================================
+
+.streamlit/secrets.toml
+
+# ============================================================
+# LARGE MARKET DATA
+# ============================================================
+
+stock_selection_agent/data/raw/
+stock_selection_agent/data/processed/
+
+trend_prediction_agent/data/raw/
+trend_prediction_agent/data/processed/
+
+risk_management_agent/data/raw/
+risk_management_agent/data/processed/
+
+trade_execution_agent/data/raw/
+trade_execution_agent/data/processed/
+
+portfolio_rebalancing_agent/data/raw/
+portfolio_rebalancing_agent/data/processed/
+
+# ============================================================
+# LARGE DATA FILE TYPES
+# ============================================================
+
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ============================================================
+# TRAINED MODEL WEIGHTS
+# ============================================================
+
+*.weights.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+stock_selection_agent/models/
+trend_prediction_agent/models/
+risk_management_agent/models/
+trade_execution_agent/models/
+portfolio_rebalancing_agent/models/
+
+# ============================================================
+# GENERATED SYSTEM RUN SNAPSHOTS
+# ============================================================
+
+reports/system/runs/
+
+# ============================================================
+# TEMP / BACKUP
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+'@ | Set-Content -Encoding UTF8 .gitignore
+current_environment.txt

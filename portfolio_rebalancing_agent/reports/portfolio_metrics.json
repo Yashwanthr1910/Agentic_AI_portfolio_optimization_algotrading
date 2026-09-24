@@ -1,0 +1,65 @@
+{
+    "status": "PASS",
+    "portfolio_type": "equal_weight_smoke_test",
+    "methodology_note": "Equal-weight portfolio used only to validate Agent-5 portfolio mathematics before Markowitz optimization. This is not the final Agent-5 allocation.",
+    "eligible_symbols": [
+        "BHARATFORG",
+        "MRPL",
+        "HINDCOPPER",
+        "360ONE",
+        "CREDITACC",
+        "IDEA",
+        "HBLENGINE",
+        "CGCL"
+    ],
+    "weights": {
+        "BHARATFORG": 0.125,
+        "MRPL": 0.125,
+        "HINDCOPPER": 0.125,
+        "360ONE": 0.125,
+        "CREDITACC": 0.125,
+        "IDEA": 0.125,
+        "HBLENGINE": 0.125,
+        "CGCL": 0.125
+    },
+    "expected_metrics": {
+        "annualized_expected_return": 0.4615396172199127,
+        "annualized_variance": 0.035667199980772474,
+        "annualized_volatility": 0.18885761827570652,
+        "sharpe_ratio": 2.4438496123896227
+    },
+    "realized_metrics": {
+        "observations": 105,
+        "daily_mean_return": 0.0018315064175393361,
+        "daily_volatility": 0.011896911694225869,
+        "cumulative_return": 0.20295934738476462,
+        "annualized_return": 0.5581249526980734,
+        "annualized_arithmetic_mean_return": 0.4615396172199127,
+        "annualized_volatility": 0.18885761827570652,
+        "sharpe_ratio": 2.955268406929111,
+        "max_drawdown": -0.09185384715057443,
+        "historical_var_95": 0.018245616755072455,
+        "turnover": 0.0,
+        "herfindahl_index": 0.125,
+        "effective_number_of_assets": 8.0,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.125,
+        "maximum_weight": 0.125
+    },
+    "validation": {
+        "eligible_assets_exist": true,
+        "equal_weights_finite": true,
+        "equal_weights_nonnegative": true,
+        "equal_weights_sum_to_one": true,
+        "expected_return_finite": true,
+        "variance_finite": true,
+        "variance_nonnegative": true,
+        "volatility_finite": true,
+        "sharpe_finite": true,
+        "cumulative_return_finite": true,
+        "annualized_return_finite": true,
+        "annualized_volatility_finite": true,
+        "max_drawdown_valid": true,
+        "historical_var_valid": true
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "status": "COMPLETE",
+    "rebalance_date": "2025-12-01",
+    "agent4_source_format": "PARQUET",
+    "agent3_source_format": "PARQUET",
+    "market_source_format": "PARQUET",
+    "selected_stocks": 10,
+    "eligible_stocks": 8,
+    "eligible_symbols": [
+        "BHARATFORG",
+        "MRPL",
+        "HINDCOPPER",
+        "360ONE",
+        "CREDITACC",
+        "IDEA",
+        "HBLENGINE",
+        "CGCL"
+    ],
+    "excluded_sell_stocks": 2,
+    "excluded_symbols": [
+        "HONASA",
+        "GVT&D"
+    ],
+    "return_observations": 105,
+    "return_start": "2025-07-01",
+    "return_end": "2025-12-01",
+    "estimation_lookback_days": 105,
+    "action_distribution": {
+        "BUY": 1,
+        "HOLD": 7,
+        "SELL": 2
+    },
+    "validation": {
+        "agent4_not_empty": true,
+        "agent4_unique_symbols": true,
+        "agent3_not_empty": true,
+        "agent3_unique_symbols": true,
+        "agent3_agent4_same_symbols": true,
+        "market_symbols_complete": true,
+        "no_future_market_data": true,
+        "returns_not_empty": true,
+        "minimum_return_observations": true,
+        "lookback_limit_respected": true,
+        "returns_all_symbols": true,
+        "returns_finite": true,
+        "eligible_assets_exist": true,
+        "covariance_symbols_valid": true,
+        "covariance_finite": true,
+        "covariance_symmetric": true,
+        "covariance_positive_semidefinite": true,
+        "correlation_symbols_valid": true,
+        "correlation_finite": true,
+        "correlation_symmetric": true,
+        "asset_statistics_complete": true,
+        "sell_assets_not_mpt_eligible": true,
+        "sell_target_weight_zero": true
+    },
+    "outputs": {
+        "returns": {
+            "csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\returns_matrix.csv",
+            "csv_saved": true,
+            "parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\returns_matrix.parquet",
+            "parquet_saved": true,
+            "parquet_error": null
+        },
+        "covariance": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\covariance_matrix.csv",
+        "correlation": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\correlation_matrix.csv",
+        "asset_statistics": {
+            "csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\asset_statistics.csv",
+            "csv_saved": true,
+            "parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\asset_statistics.parquet",
+            "parquet_saved": true,
+            "parquet_error": null
+        },
+        "rebalancing_input": {
+            "csv": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\rebalancing_input.csv",
+            "csv_saved": true,
+            "parquet": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\data\\processed\\rebalancing_input.parquet",
+            "parquet_saved": true,
+            "parquet_error": null
+        }
+    },
+    "methodology_note": "Agent 5 prepares Markowitz MPT inputs using Agent-4 DQN trade decisions and historical returns. SELL assets are excluded from positive target allocation, while BUY and HOLD assets remain eligible for MPT. The 105-trading-day lookback is an implementation mapping of the paper's reported five-month holding period."
+}

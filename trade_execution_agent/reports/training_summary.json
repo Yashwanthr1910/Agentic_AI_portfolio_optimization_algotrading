@@ -1,0 +1,20 @@
+{
+    "status": "COMPLETE",
+    "training_start": "2015-01-30",
+    "training_end": "2018-12-31",
+    "rows": 6735,
+    "stocks": 8,
+    "episodes": 100,
+    "learning_rate": 0.0001,
+    "gamma": 0.95,
+    "batch_size": 32,
+    "learning_steps": 82685,
+    "target_updates": 330,
+    "epsilon_final": 0.05,
+    "total_environment_steps": 83684,
+    "total_executed_trades": 28830,
+    "mean_reward": -58.67922630514534,
+    "mean_loss": 0.0010064470837852027,
+    "duration_seconds": 989.9538928000256,
+    "methodology_note": "2015-2018 is used as the historical DQN training period because the available source data begins in 2015. The reference paper uses 2000-2018 historical calculations."
+}

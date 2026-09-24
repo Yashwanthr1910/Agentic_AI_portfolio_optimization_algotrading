@@ -1,0 +1,52 @@
+{
+    "status": {
+        "state_size": 7,
+        "num_actions": 3,
+        "gamma": 0.95,
+        "batch_size": 32,
+        "epsilon": 0.995,
+        "epsilon_min": 0.05,
+        "epsilon_decay": 0.995,
+        "replay_size": 1000,
+        "environment_steps": 1000,
+        "learning_steps": 1,
+        "target_updates": 1
+    },
+    "checks": {
+        "q_value_shape_valid": true,
+        "q_values_finite": true,
+        "greedy_action_valid": true,
+        "greedy_action_matches_argmax": true,
+        "exploration_actions_valid": true,
+        "exploration_multiple_actions": true,
+        "replay_minimum_reached": true,
+        "current_q_shape_valid": true,
+        "target_q_shape_valid": true,
+        "target_q_finite": true,
+        "unselected_q_values_preserved": true,
+        "training_result_created": true,
+        "loss_finite": true,
+        "learning_step_incremented": true,
+        "epsilon_decayed": true,
+        "weights_changed_after_training": true,
+        "target_sync_valid": true
+    },
+    "sample_q_values": [
+        0.2069750279188156,
+        0.2037634402513504,
+        0.1924077570438385
+    ],
+    "greedy_action": 0,
+    "greedy_action_name": "HOLD",
+    "training_result": {
+        "loss": 0.013467652723193169,
+        "learning_step": 1,
+        "environment_steps": 1000,
+        "replay_size": 1000,
+        "epsilon_before": 1.0,
+        "epsilon_after": 0.995,
+        "target_updated": false,
+        "mean_current_q": 0.18667636811733246,
+        "mean_target_q": 0.2508451044559479
+    }
+}

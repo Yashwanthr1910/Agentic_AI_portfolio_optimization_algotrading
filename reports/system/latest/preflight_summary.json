@@ -1,0 +1,297 @@
+{
+    "system_name": "Agentic AI Portfolio Optimization and Algorithmic Trading System",
+    "system_version": "1.0",
+    "mode": "verify",
+    "timestamp": "2026-09-24T12:08:34",
+    "project_root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading",
+    "final_inference_date": "2025-12-01",
+    "environment": {
+        "checks": {
+            "python_version_supported": true,
+            "running_inside_project_venv": true,
+            "required_packages_available": true
+        },
+        "python": {
+            "version": "3.11.9",
+            "executable": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\.venv\\Scripts\\python.exe",
+            "platform": "Windows-10-10.0.26200-SP0"
+        },
+        "required_packages": {
+            "numpy": true,
+            "pandas": true,
+            "scipy": true,
+            "sklearn": true,
+            "pyarrow": true,
+            "tensorflow": true
+        },
+        "optional_packages": {
+            "pytest": true,
+            "matplotlib": false
+        }
+    },
+    "structure": {
+        "checks": {
+            "agent1_root_exists": true,
+            "agent1_entrypoint_exists": true,
+            "agent2_root_exists": true,
+            "agent2_entrypoint_exists": true,
+            "agent3_root_exists": true,
+            "agent3_entrypoint_exists": true,
+            "agent4_root_exists": true,
+            "agent4_entrypoint_exists": true,
+            "agent5_root_exists": true,
+            "agent5_entrypoint_exists": true
+        },
+        "agents": {
+            "agent1": {
+                "name": "Stock Selection Agent",
+                "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent",
+                "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\main.py"
+            },
+            "agent2": {
+                "name": "Trend Prediction Agent",
+                "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent",
+                "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\main.py"
+            },
+            "agent3": {
+                "name": "Risk Management Agent",
+                "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent",
+                "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\main.py"
+            },
+            "agent4": {
+                "name": "Trade Execution Agent",
+                "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent",
+                "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\main.py"
+            },
+            "agent5": {
+                "name": "Portfolio Rebalancing Agent",
+                "root": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent",
+                "entrypoint": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\main.py"
+            }
+        }
+    },
+    "support": {
+        "checks": {
+            "agent1_market_data": true,
+            "agent1_features": true,
+            "agent1_labeled_features": true,
+            "agent2_scaler": true,
+            "agent2_sequence_metadata": true,
+            "agent2_seed42_weights": true,
+            "agent2_seed123_weights": true,
+            "agent2_seed456_weights": true,
+            "agent1_selected_stocks": true,
+            "agent2_predictions": true,
+            "agent3_risk_output": true,
+            "agent4_trade_output": true
+        },
+        "upstream_outputs": {
+            "agent1_selected_stocks": true,
+            "agent2_predictions": true,
+            "agent3_risk_output": true,
+            "agent4_trade_output": true
+        },
+        "details": {
+            "agent1_market_data": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\nifty500_daily.parquet",
+            "agent1_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\features.parquet",
+            "agent1_labeled_features": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\processed\\labeled_features.parquet",
+            "agent2_scaler": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\scaler.pkl",
+            "agent2_sequence_metadata": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\data\\processed\\sequence_metadata.json",
+            "agent2_seed42_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_42.weights.h5",
+            "agent2_seed123_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_123.weights.h5",
+            "agent2_seed456_weights": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\models\\seed_stability\\full_paper_model_seed_456.weights.h5",
+            "agent1_selected_stocks": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+            "agent2_predictions": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+            "agent3_risk_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+            "agent4_trade_output": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet"
+        }
+    },
+    "agent_results": {
+        "agent1": {
+            "checks": {
+                "not_empty": true,
+                "required_columns": true,
+                "expected_rows": true,
+                "unique_symbols": true,
+                "symbols_non_null": "True",
+                "final_date_matches": true
+            },
+            "rows": 10,
+            "symbols": [
+                "360ONE",
+                "BHARATFORG",
+                "CGCL",
+                "CREDITACC",
+                "GVT&D",
+                "HBLENGINE",
+                "HINDCOPPER",
+                "HONASA",
+                "IDEA",
+                "MRPL"
+            ],
+            "dates": [
+                "2025-12-01"
+            ],
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\stock_selection_agent\\data\\outputs\\selected_stocks.parquet",
+            "format": "PARQUET"
+        },
+        "agent2": {
+            "checks": {
+                "not_empty": true,
+                "required_columns": true,
+                "expected_rows": true,
+                "unique_symbols": true,
+                "top30_probability_finite": true,
+                "probability_range_valid": true,
+                "rank_finite": true,
+                "trend_class_valid": "True",
+                "final_date_matches": true
+            },
+            "rows": 10,
+            "symbols": [
+                "360ONE",
+                "BHARATFORG",
+                "CGCL",
+                "CREDITACC",
+                "GVT&D",
+                "HBLENGINE",
+                "HINDCOPPER",
+                "HONASA",
+                "IDEA",
+                "MRPL"
+            ],
+            "dates": [
+                "2025-12-01"
+            ],
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trend_prediction_agent\\outputs\\trend_predictions.parquet",
+            "format": "PARQUET"
+        },
+        "agent3": {
+            "checks": {
+                "not_empty": true,
+                "required_columns": true,
+                "expected_rows": true,
+                "unique_symbols": true,
+                "agent3_score_finite": true,
+                "agent3_rank_finite": true,
+                "risk_weight_finite": true,
+                "risk_weights_nonnegative": true,
+                "risk_weights_sum_to_one": true,
+                "risk_levels_valid": "True",
+                "final_date_matches": true
+            },
+            "rows": 10,
+            "symbols": [
+                "360ONE",
+                "BHARATFORG",
+                "CGCL",
+                "CREDITACC",
+                "GVT&D",
+                "HBLENGINE",
+                "HINDCOPPER",
+                "HONASA",
+                "IDEA",
+                "MRPL"
+            ],
+            "dates": [
+                "2025-12-01"
+            ],
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\risk_management_agent\\outputs\\risk_assessment.parquet",
+            "format": "PARQUET"
+        },
+        "agent4": {
+            "checks": {
+                "not_empty": true,
+                "required_columns": true,
+                "expected_rows": true,
+                "unique_symbols": true,
+                "actions_valid": "True",
+                "q_hold_finite": true,
+                "q_buy_finite": true,
+                "q_sell_finite": true,
+                "final_date_matches": true
+            },
+            "rows": 10,
+            "symbols": [
+                "360ONE",
+                "BHARATFORG",
+                "CGCL",
+                "CREDITACC",
+                "GVT&D",
+                "HBLENGINE",
+                "HINDCOPPER",
+                "HONASA",
+                "IDEA",
+                "MRPL"
+            ],
+            "dates": [
+                "2025-12-01"
+            ],
+            "action_counts": {
+                "SELL": 2,
+                "HOLD": 7,
+                "BUY": 1
+            },
+            "current_distribution_match": true,
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\trade_execution_agent\\outputs\\trade_decisions.parquet",
+            "format": "PARQUET"
+        },
+        "agent5": {
+            "checks": {
+                "not_empty": true,
+                "required_columns": true,
+                "expected_rows": true,
+                "unique_symbols": true,
+                "final_weight_finite": true,
+                "final_weights_nonnegative": true,
+                "final_weights_sum_to_one": true,
+                "actions_valid": "True",
+                "sell_weights_zero": true,
+                "final_date_matches": true
+            },
+            "rows": 10,
+            "symbols": [
+                "360ONE",
+                "BHARATFORG",
+                "CGCL",
+                "CREDITACC",
+                "GVT&D",
+                "HBLENGINE",
+                "HINDCOPPER",
+                "HONASA",
+                "IDEA",
+                "MRPL"
+            ],
+            "dates": [
+                "2025-12-01"
+            ],
+            "active_assets": 8,
+            "exited_assets": 2,
+            "weight_sum": 0.9999999999999998,
+            "source": "C:\\Users\\yashw\\Agentic_AI_portfolio_optimization_algotrading\\portfolio_rebalancing_agent\\outputs\\rebalanced_portfolio.parquet",
+            "format": "PARQUET"
+        }
+    },
+    "symbol_chain": {
+        "agent1_agent2_same_symbols": true,
+        "agent2_agent3_same_symbols": true,
+        "agent3_agent4_same_symbols": true,
+        "agent4_agent5_same_symbols": true,
+        "all_agents_same_symbols": true
+    },
+    "date_chain": {
+        "all_observed_dates_single": true,
+        "all_observed_dates_match_final_date": true,
+        "observed_agent_dates_consistent": true
+    },
+    "stage_status": {
+        "environment": true,
+        "structure": true,
+        "support": true,
+        "outputs": true,
+        "content": true,
+        "symbol_chain": true,
+        "date_chain": true
+    },
+    "overall_pass": true
+}
